@@ -1,0 +1,186 @@
+
+% example for dissertation.sty
+\documentclass[
+  % Replace oneside by twoside if you are printing your thesis on both sides
+  % of the paper, leave as is for single sided prints or for viewing on screen.
+  %oneside,
+  twoside,
+  11pt, a4paper,
+  footinclude=true,
+  headinclude=true,
+  cleardoublepage=empty
+]{scrbook}
+
+% PACKAGES ------------------------------
+
+\usepackage{dissertation}
+%\usepackage{makeidx}
+\usepackage{hyperref}
+\usepackage[nomain, acronym, xindy, automake]{glossaries}
+%\usepackage[acronym]{glossaries}
+\usepackage{natbib}
+\usepackage{colortbl}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{tabu}
+%\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{wrapfig}
+
+\definecolor{asparagus}{rgb}{0.53, 0.66, 0.42}
+\definecolor{blue(ryb)}{rgb}{0.01, 0.28, 1.0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{green(ncs)}{rgb}{0.0, 0.62, 0.42}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+%	commentstyle=\color{green(ncs)},
+%	keywordstyle=\color{blue(ryb)},
+%	numberstyle=\tiny\color{codegray},
+%	stringstyle=\color{green(ncs)},
+	basicstyle=\footnotesize,
+	breakatwhitespace=true,         
+	breaklines=true,                 
+	captionpos=r,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style = mystyle}
+
+% ----------------------------------------------------------------
+
+% Title
+\titleA{Development of web-based tools for}
+\titleB{spectral data analysis and mining} % (if any)
+
+% Author
+\author{Telma Adriana Pereira Afonso}
+
+% Supervisor(s)
+\supervisor{Miguel Francisco Almeida Pereira da Rocha}
+\cosupervisor{Marcelo Maraschin}
+
+% Date
+\date{\myear} % change to text if date is not today
+
+% Keywords
+%\keywords{master thesis}
+
+% ACRONYMS -------------------------
+
+\input{acronyms}
+
+\makeglossaries
+
+\ummetadata % add metadata to the document (author, publisher, ...)
+
+%\glsaddall[types={\acronymtype}]
+
+
+\begin{document}
+	\frontmatter
+	%\pagestyle{headings}
+	
+	% Cover page ---------------------------------------
+	\umfrontcover	
+	\umtitlepage
+	
+	\setlength{\parskip}{0.2cm}%
+	\urlstyle{same}
+	
+	% ACKNOWLEDGEMENTS ----------------------------
+	%\chapter*{Acknowledgements}
+	
+
+	% ABSTRACTS ---------------------------
+	
+	\input{abstract}	
+		
+		
+	% SUMMARY LISTS ----------------------------
+	\tableofcontents
+	\listoffigures
+	\listoftables
+	
+	% ACRONYMS ---------------------------------
+	
+	% Na shell: 
+	% 1. pdflatex dissertation.tex (ou correr aqui)
+	% 2. makeglossaries dissertation.acn
+	% 3. pdflatex dissertation.tex (ou correr aqui)
+	
+	\printacronyms[title = List of Acronyms, style = long]
+	\cleardoublepage
+	
+	
+	%\pagenumbering{arabic}
+	\mainmatter
+	
+	% CHAPTER - Introduction -------------------------
+	
+	\input{context}
+	
+
+	% CHAPTER - State of the Art (techniques) -------------------
+	
+	\input{techniques}
+			
+
+	% CHAPTER - State of the Art (workflow) ---------------------
+	
+	\input{workflow_preprocessing}
+	\input{workflow_univariate}
+	\input{workflow_unsupervised}
+	\input{workflow_supervised}
+	\input{workflow_feature_selection}
+
+	
+	% CHAPTER - State of the Art (Data Integration)
+	
+	\input{data_integration}
+
+
+	% CHAPTER - State of the Art (Free Software)
+	
+	\input{software}
+	
+	
+	% CHAPTER - Devolopment Strategy and Tools
+	
+	\input{development_strategy_tools}	
+	\input{specmine}
+	\input{architecture}
+	\input{data_model}
+	
+	
+	% CHAPTER - Use Cases
+	
+	\input{use_cases}
+	
+	
+	% CHAPTER - Case Studies
+	
+	\input{case_studies}
+	
+	
+	% BIBLIOGRAPHY ----------------------
+	
+	\bibliographystyle{apalike}
+	\bibliography{dissertation}
+
+
+	
+
+\end{document}

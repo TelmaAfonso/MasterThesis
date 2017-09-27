@@ -1,0 +1,45 @@
+
+\subsection{Univariate data analysis}
+
+After the preprocessing step, the data is finally ready to be analyzed. This dataset is usually under the form of a matrix, with either a compound list or a peak list and their values for different samples. The main types of data analysis are: univariate analysis, unsupervised multivariate techniques and supervised multivariate techniques (machine learning).
+
+Univariate analysis investigates each variable separately or relates a single independent variable $ x $ to a single dependent variable $ y $. However, the data obtained from experiments regarding compounds, reactions and/or samples are multivariate in nature, which means a good characterization often requires using many variables simultaneously. Multivariate data analysis considers many variables together and thereby often gains a new and higher quality in data evaluation. The differences between supervised and unsupervised methods relies in the fact that the first ones do not need any metadata (e.g. information about natural groups within the data), while the latter requires samples to be divided into at least two classes (or groups) to allow the methods to conduct a learning (or training) process \citep{varmuza2009introduction}.
+
+This section will cover univariate analysis techniques, whereas unsupervised multivariate techniques and supervised multivariate techniques will be explored with further detail in \autoref{unsupervised} and \autoref{supervised}. 
+
+Among the most popular univariate analysis techniques used in metabolic fingerprinting approaches are the t-tests, \acrfull{anova} and fold change analysis. Non-parametric tests often used include the Kruskal-Wallis, Kolmogorov-Smirnov and Wilcoxon signed-rank tests. Regression analysis is also often employed. 
+
+A t-test is a statistical hypothesis test in which the test statistic follows a Student's t distribution under the null hypothesis. It allows for data comparison, by determining if two sets of data are significantly different from each other. This test is most commonly used to test whether the mean of a population can have a specified value, to test if the means of two populations can be equal (two-sample test), to test whether the slope of a regression line differs significantly from 0, among other uses.
+
+The \gls{anova} is a collection of statistical models used to assess the relative size of variance among group means compared to the average variance within groups. For a comparison of more than two group means, the one-way \gls{anova} is the appropriate method instead of the t-test. It is similar to multiple two-sample t-tests, but since it is less conservative (results in a smaller number of type I errors) it is suited to a wide range of practical problems. The two-way \gls{anova} is an extension of the one-way \gls{anova} and it examines the influence of two different categorical independent variables on one continuous dependent variable. Besides assessing the main effect of each variable, it also assesses if there is any interaction between them.
+
+The degree of how relatively greater the difference is between group means compared to within group variance is known to follow the F distribution. Therefore, the \gls{anova}  makes use of the F-test to test the statistical significance by comparing the F statistic, which compares the variance between groups with the variance within groups. If any significant difference is detected by the F-test, the specific pair of group means that show differences and the pairs that do not can be examined using a post-hoc test. One such test for this task is the Tuckey's \gls{hsd} test \citep{kim2014analysis}.
+
+When conducting multiple comparisons, as is the case of a metabolic fingerprinting experiment, the \gls{fdr} is one way of conceptualizing the rate of type I errors (false positives) in null hypothesis testing. This method provides a less stringent control of Type I errors when compared to familywise error rate controlling procedures (e.g. Bonferroni correction).
+
+The \gls{fc} is calculated by getting the ratio between the mean value of the selected variable in one group in comparison to the same value in another group, thus measuring how much a variable mean changes within two groups. It is an interesting measure in the sense that it allows for group discrimination according to the selected feature, given that the \gls{fc} value is significant enough (usually \gls{fc} $ \textgreater $ 2).
+
+Many statistical tests rely heavily on distributional assumptions, such as normality. However, when these assumptions are not satisfied, commonly used statistical tests often perform poorly, resulting in a greater chance of committing an error. Non-parametric tests are designed to have desirable statistical properties when few assumptions can be made about the underlying distribution of the data. In other words, when the data are obtained from a non-normal distribution or one containing outliers, a non-parametric test is often a more powerful statistical tool than it's parametric equivalent.
+
+The Kruskal–Wallis H-test for Oneway \gls{anova} by Ranks is often viewed as the nonparametric equivalent of the parametric Oneway \gls{anova}. As a nonparametric test, it uses ranked data, and is particularly employed when: the data are ordinal and do not meet the precision of interval data, there are serious concerns about extreme deviation from normal distribution, and there is considerable difference in the number of subjects for each comparative group. This test is frequently used for when it is necessary to determine if three or more independent samples originate from the same population. A significant Kruskal-Wallis test indicates that at least one sample stochastically dominates one other sample. The test does not identify, however, where this stochastic dominance occurs or for how many pairs of groups stochastic dominance obtains.
+
+Kolmogorov-Smirnov Two-Sample test is another nonparametric test often used to determine if two independent samples are taken from either the same population or from two populations that have the same distribution pattern. It is sensitive to distribution differences, either in central tendency or dispersion differences, being more useful when these differences are due more to the latter case. The Kolmogorov-Smirnov test uses ordinal data and is especially useful with small samples, such as when there are fewer than 40 subjects in each of the two samples.
+
+The Wilcoxon Signed-Rank test is a nonparametric hypothesis test often viewed as being similar to Student's t-test for matched pairs, but it is used for ordinal data or data that seriously violate any semblance of normal distribution. This method is employed when comparing two related samples (matched samples) or repeated measurements on a single sample to assess whether their population mean ranks differ (i.e. it is a paired difference test), focusing on both the magnitude and direction of the differences for matched pairs \citep{macfarland2016introduction}.
+
+Perhaps the most widely used statistical technique is Regression analysis. Linear regression analysis allows the investigation and modeling of the relationship between a scalar dependent variable $ y $ and one or more independent variables (regressors) denoted $ x $, assuming a linear relationship between them. This relationship is estimated through a mathematical equation (i.e. a linear model) which, in its most general form looks like:
+
+\begin{equation}
+	\centering
+	\label{regression}
+		y_{i} = \beta_{0} + \beta_{1}x_{i1} + ... + \beta_{p}x_{ip} + \varepsilon_{i},	\hspace{15mm}	i = 1,...,n
+\end{equation}
+ 
+where $ y_{i} $ represents the dependent variable, $ x_{i1} - x_{ip} $ the independent variables, $ \beta $ is a $ p $-dimensional parameter vector and its elements called regression coefficients and, lastly, $ \varepsilon_{i} $ represents the error term. In almost all applications of regression, the regression equation is only an approximation to the true functional relationship between the variables of interest and are valid only over the region of the regressor variables contained in the observed data.
+
+The case when there is only one independent variable is called simple linear regression, whereas for more than one independent variable the process is called multiple linear regression. The regression coefficients are often estimated using the least squares method, which attempts to minimize the sum of the squares of the errors made in the results of every single equation \citep{darlington2016regression}.
+
+
+
+
+

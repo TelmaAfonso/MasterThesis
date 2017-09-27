@@ -1,0 +1,12 @@
+\deactivateaddvspace 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1}{\ignorespaces Applications of \acrshort {ir}, \acrshort {uv} and Raman spectroscopies.\relax }}{8}{table.2.1}
+\contentsline {table}{\numberline {2}{\ignorespaces Available free tools for metabolomics and spectral data.\relax }}{26}{table.caption.16}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3}{\ignorespaces \textit {Specmine} package functions regarding data reading and dataset structure\relax }}{33}{table.3.3}
+\contentsline {table}{\numberline {4}{\ignorespaces \textit {Specmine} package functions for data exploratory analysis and preprocessing.\relax }}{35}{table.3.4}
+\contentsline {table}{\numberline {5}{\ignorespaces \textit {Specmine} package functions for univariate and unsupervised multivariate analysis.\relax }}{38}{table.3.5}
+\contentsline {table}{\numberline {6}{\ignorespaces \textit {Specmine} package functions for machine learning and feature selection.\relax }}{39}{table.3.6}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

@@ -1,0 +1,59 @@
+\chapter{Introduction}
+\section{Context}
+
+Metabolites represent a diverse group of small molecules including lipids, amino acids, peptides, nucleic acids, organic acids, vitamins, thiols and carbohydrates \citep{zhang2012modern}. They are the end products of cell metabolic processes, and both genetic and environmental changes can trigger a response in biological systems which ultimately result in variations of metabolite levels. The set of metabolites produced by a system constitute its metabolome \citep{fiehn2002metabolomics}.
+
+Metabolomics is a relatively new field, incorporating the so called omics technologies, alongside the mature proteomics and genomics which study proteins and genes, respectively,  and can be defined as the study of chemical processes involving small molecules in biological systems, including their identification and quantification \citep{daviss2005growing}.
+
+The close relation of metabolites to an organism's phenotype \citep{fiehn2002metabolomics} allows for metabolomics to be used in a large range of applications. Amongst these are the phenotyping of genetically modified plants, determination of gene function and monitoring responses to biotic and abiotic stress. Therefore, metabolomics provides a more comprehensive view of how cells function, as well as the identification of changes that can occur in specific metabolites \citep{roessner2009metabolomics}.
+
+This rapidly emerging field combines different strategies to achieve the experiments goals, including the identification and quantification of metabolites, through sophisticated analytical technologies combined with statistical and multivariate methods for data extraction and interpretation \citep{roessner2009metabolomics}. Such experiments yield large amounts of data and if we consider that information output has been growing exponentially over the years, the need for an automated analysis process becomes a necessity \citep{larsen2010rate}.
+
+To cover such necessity, a number of different computational tools regarding spectral data analysis have become available, targeting broader purposes or more specific tasks, as well
+as covering a wider or smaller range of experimental techniques. Many of such tools have been developed over the open-source R scientific computing platform \href{https://www.r-project.org/}{\nolinkurl{https://www.r-project.org/}}, thus taking advantage of numerous previous efforts and also making all scripts available for the community. \textit{ChemoSpec} and \textit{hyperSpec} are two such examples, covering a wide range of platforms and data formats, including spectral data from Raman, \gls{ftir} and \gls{uv} spectroscopies, techniques that will be emphasized throughout this dissertation. 
+
+Recently, in the host group, an R package named \textit{specmine} \citep{costa2016r} was developed. It is a metabolomics and spectral data analysis/mining framework, addressing the development of customizable data analysis pipelines, covering different types of metabolomics and spectral data, such as \gls{ir}, Raman and \gls{uv} spectroscopies. This tool will be the supporting framework for the development of this work that will seek to improve it both in terms of interface and of available functionality.
+
+
+\section{Objectives}
+
+Given the context described above, the main aim of this work will be the design and development of web-based computational platform for spectral data analysis and knowledge extraction. The work will address the exploration and integration of data from distinct experimental techniques, focusing on \gls{uv}, Raman and \gls{ir} spectroscopies. 
+
+More specifically, the work will address the following scientific/ technological goals:
+
+\begin{itemize}
+	\item To review the state-of-the-art in metabolomics data analysis, focusing on spectral data, including a review of the main tools implementing these methods;
+	\item To design and implement adequate web-based interfaces for spectral data analysis and data mining pipelines, based on the functions provided by the \textit{specmine} package;
+	\item To design and implement novel functions for spectral data analysis/mining extending the functionality of \textit{specmine}, covering topics as data fusion from different platforms, machine learning and feature selection;
+	\item To validate the tools developed with several case studies of interest for the host groups in the analysis of the potential of natural products, including for instance cassava and bees’ propolis;
+	\item To write scientific publications with the results of the work.
+\end{itemize}
+
+
+\section{Work Plan}
+
+The proposed work plan for the duration of this Masters dissertation is presented below. It includes the tasks that need to be performed with respective schedule.
+
+\begin{itemize}
+	
+	\item \textbf{Weeks 1-12:} Studying the state of the art; analyzing available algorithms and tools, including specmine; writing pre-thesis;
+	\item \textbf{Weeks 10-18:} Analyzing requirements and designing the web-based interface;
+	\item \textbf{Weeks 16-28:} Implementing the web-based interface for specmine tools;
+	\item \textbf{Weeks 22-36:} Implementing/ improving \textit{specmine} tools for data fusion, machine learning and feature selection;
+	\item \textbf{Weeks 16-36:} Applying tools in selected case studies; analyzing results;
+	\item \textbf{Weeks 13-40:} Writing the thesis and publications;
+	
+\end{itemize}
+
+As of the writing of this document, the first point has been covered (weeks 1-12), by covering the state of the art in the metabolomics field, focusing on spectral data. The second point (weeks 10-18) was also covered, by analyzing requirements and designing the web-based interface. Currently, the third point (weeks 16-28) is being covered, with the implementation of \textit{specmine}'s tools in the platform.
+
+
+
+%\section{Dissertation organization}
+%
+%Currently, this dissertation is divided in two chapters. In the first chapter, a brief introduction to the theme of this dissertation was made and the objectives proposed for this work defined. 
+%
+%The following chapter covers the state of the art regarding the metabolomics field, emphasizing the metabolic fingerprinting approach, describing the main spectroscopy techniques currently used. The chapter also covers the main steps in a metabolomics experiment, from data preprocessing to data analysis, also covering feature selection and data fusion methods, discussing some of the currently available free tools that handle metabolomics and spectral data and, specifically, the \textit{specmine} package with all its features which will be the base for this work.
+
+
+

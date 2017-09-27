@@ -1,0 +1,39 @@
+\deactivateaddvspace 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces Example of \acrshort {ir} (\textbf {A}), \acrshort {uv} (\textbf {B}) and Raman (\textbf {C}) spectra with commonly used units represented in the axis.\relax }}{7}{figure.caption.8}
+\contentsline {figure}{\numberline {2}{\ignorespaces General workflow of the various metabolomics approaches.\relax }}{11}{figure.caption.9}
+\contentsline {figure}{\numberline {3}{\ignorespaces Graphical representation of first and second order derivatives calculation.\relax }}{13}{figure.caption.10}
+\contentsline {figure}{\numberline {4}{\ignorespaces Example of a dendrogram resulting from a cluster analysis performed over 32 samples. The distance between samples is represented in the $ y $ axis, whereas sample names are represented in the $ x $ axis.\relax }}{18}{figure.caption.11}
+\contentsline {figure}{\numberline {5}{\ignorespaces Graphical representation of tabular data used in a machine learning approach, including feature matrix X and a property vector y.\relax }}{19}{figure.caption.12}
+\contentsline {figure}{\numberline {6}{\ignorespaces General workflow of a machine learning approach.\relax }}{20}{figure.caption.13}
+\contentsline {figure}{\numberline {7}{\ignorespaces Workflow of Filter, Wrapper and Embedded approaches in feature selection.\relax }}{22}{figure.caption.14}
+\contentsline {figure}{\numberline {8}{\ignorespaces Graphical representation of \textbf {A.} \acrfull {llf}, \textbf {B.} \acrfull {ilf} and \textbf {C.} \acrfull {hlf}.\relax }}{24}{figure.caption.15}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9}{\ignorespaces Representation of reactive programming objects in a Shiny application.\relax }}{30}{figure.caption.17}
+\contentsline {figure}{\numberline {10}{\ignorespaces Modules in the \textit {specmine} package. Adapted from \cite {costa2016r}.\relax }}{33}{figure.caption.18}
+\contentsline {figure}{\numberline {11}{\ignorespaces Representation of the dataset structure in \textit {specmine}. Adapted from \cite {costa2016r}.\relax }}{33}{figure.caption.19}
+\contentsline {figure}{\numberline {12}{\ignorespaces Graphical representation of the application's structure.\relax }}{40}{figure.caption.20}
+\contentsline {figure}{\numberline {13}{\ignorespaces Graphical representation of the application's file structure. The filenames in bold represent the files to which I greatly or totally contributed to, given the scope of this work.\relax }}{41}{figure.caption.21}
+\contentsline {figure}{\numberline {14}{\ignorespaces Main page of the web application.\relax }}{42}{figure.caption.22}
+\contentsline {figure}{\numberline {15}{\ignorespaces Authentication menu after successful login (detail).\relax }}{42}{figure.caption.23}
+\contentsline {figure}{\numberline {16}{\ignorespaces Graphical representation of a project's structure.\relax }}{43}{figure.caption.24}
+\contentsline {figure}{\numberline {17}{\ignorespaces Zoomed view over \textit {My Projects} page.\relax }}{43}{figure.caption.25}
+\contentsline {figure}{\numberline {18}{\ignorespaces Zoomed view over \textit {New Project} window.\relax }}{45}{figure.caption.26}
+\contentsline {figure}{\numberline {19}{\ignorespaces Zoomed view over \textit {Spectra Plot} tab in the \textit {Data Visualization} page.\relax }}{46}{figure.caption.27}
+\contentsline {figure}{\numberline {20}{\ignorespaces Zoomed view over \textit {Pre-Processing} page.\relax }}{47}{figure.caption.28}
+\contentsline {figure}{\numberline {21}{\ignorespaces Zoomed view over the \textit {Run Analysis} page.\relax }}{48}{figure.caption.29}
+\contentsline {figure}{\numberline {22}{\ignorespaces Zoomed view over \textit {Analysis Results} page for one-way \gls {anova}, showing the numerical results tab and emphasizing the options used for the analysis.\relax }}{49}{figure.caption.30}
+\contentsline {figure}{\numberline {23}{\ignorespaces Zoomed view over the \textit {Analysis Results} page for \gls {pca}, showing the \textit {Make Plots} tab for the scree plot, emphasizing the customizable options (\textbf {A}) and example of a pairs plot made in the web application (\textbf {B}).\relax }}{52}{figure.caption.31}
+\contentsline {figure}{\numberline {24}{\ignorespaces Zoomed view over \textit {Analysis Results} page for hierarchical clustering, showing the clustering dendrogram.\relax }}{53}{figure.caption.32}
+\contentsline {figure}{\numberline {25}{\ignorespaces Zoomed view over the \textit {Analysis Results} page for correlation analysis, emphasizing the correlation heatmap and respective colour scale.\relax }}{54}{figure.caption.33}
+\contentsline {figure}{\numberline {26}{\ignorespaces MySQL model used in the platform for project, dataset and user management.\relax }}{55}{figure.caption.34}
+\contentsline {figure}{\numberline {27}{\ignorespaces Graphical representation of the hashing process.\relax }}{57}{figure.caption.35}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {28}{\ignorespaces The dataset summary (\textbf {A}) and partial metadata table (\textbf {B}).\relax }}{60}{figure.caption.36}
+\contentsline {figure}{\numberline {29}{\ignorespaces Propolis raw spectra (\textbf {A}) and spectra processed with smoothing interpolation, background, offset and baseline corrections (\textbf {B}), with samples colored according to season.\relax }}{60}{figure.caption.37}
+\contentsline {figure}{\numberline {30}{\ignorespaces Hierarchical clustering analysis dendrogram of the propolis dataset. Euclidean distance and a complete agglomeration method were used.\relax }}{61}{figure.caption.38}
+\contentsline {figure}{\numberline {31}{\ignorespaces Principal components importance (\textbf {A}) and variable loadings (\textbf {B}) tables from the \gls {pca} performed over the propolis dataset.\relax }}{62}{figure.caption.39}
+\contentsline {figure}{\numberline {32}{\ignorespaces Scores scatter plot of the \gls {pca} performed over the propolis dataset for the first and second components.\relax }}{62}{figure.caption.40}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {33}{\ignorespaces Representation of the CIE L* a* b* color space.\relax }}{64}{figure.caption.41}
