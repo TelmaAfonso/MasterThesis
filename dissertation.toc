@@ -54,9 +54,10 @@
 \contentsline {subsection}{\numberline {4.1.5}Clustering}{61}{subsection.4.1.5}
 \contentsline {subsection}{\numberline {4.1.6}Principal Components Analysis}{61}{subsection.4.1.6}
 \contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Case Study}}{63}{chapter.5}
-\contentsline {section}{\numberline {5.1}Cassava}{63}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Introduction}{63}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Ultraviolet-visible Data}{65}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}CIELAB Data}{66}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Fusion Data}{66}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.1}Introduction}{63}{section.5.1}
+\contentsline {section}{\numberline {5.2}Data types}{65}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Ultraviolet-visible Data}{65}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}CIELAB Data}{66}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Fusion Data}{66}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Univariate Analysis}{66}{section.5.3}
 \vspace \bigskipamount 

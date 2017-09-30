@@ -37,3 +37,4 @@
 \contentsline {figure}{\numberline {32}{\ignorespaces Scores scatter plot of the \gls {pca} performed over the propolis dataset for the first and second components.\relax }}{62}{figure.caption.40}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {33}{\ignorespaces Representation of the CIE L* a* b* color space.\relax }}{64}{figure.caption.41}
+\contentsline {figure}{\numberline {34}{\ignorespaces \gls {anova} results using the \textit {colors} metadata variable (\textbf {A}) and respective plot of the -log$_{10}$ of p-values with a p-value threshold value of 0.05 (\textbf {B}).\relax }}{67}{figure.caption.42}

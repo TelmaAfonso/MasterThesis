@@ -4,9 +4,7 @@
 The aim of this chapter is to present a case study using real data, providing a meaningful pipeline with the ability to demonstrate the application's features. This case study consists in the chemometric characterization of the carotenoid content in cassava roots tissue, using \gls{uv}, CIELAB data and a \acrlong{llf} of the two.
 
 
-\section{Cassava}
-
-\subsection{Introduction}
+\section{Introduction}
 
 Cassava is the commonly used term to designate the \textit{Manihot esculenta} species. This tuberous-root plant species offers a wide variety of agronomic advantages, being resilient to droughts, inexpensive, resistant to major diseases and pests, easy to grow and having flexible harvest times, allowing farmers to harvest the roots as needed. It is, therefore, a valuable source of energy for people living in the poorest regions. However, cassava roots are a poor source of provitamin A carotenoids, whose deficiency is a major problem in such regions \citep{la2013biofortified, sanchez2014prediction}. 
 
@@ -27,6 +25,7 @@ Currently, CIELAB is the most used system for quantitative color description of 
 
 Combining \gls{uv} and CIELAB colorimetric data, the aim of the present case study is to validate a quantification method for carotenoid content estimation in roots of \textit{M. esculenta}, assuming that the statistical and machine learning techniques can correlate these data types, to ultimately detect genotypes of M. esculenta with high contents of carotenoids. Importantly, this study provides tools that can support the plant-breeding program at Epagri (Agricultural Research Company and Rural Extension of the State of Santa Catarina, \href{http://www.epagri.sc.gov.br/}{\nolinkurl{http://www.epagri.sc.gov.br/}}) that aims to obtain genotypes with high levels of pro-vitamin A carotenoids and superior nutritional traits.
 
+\section{Data types}
 
 \subsection{Ultraviolet-visible Data}
 
@@ -54,7 +53,18 @@ The analysis pipeline was similar for the CIELAB dataset, however, models that i
 For the fusion dataset, which contained 104 variables (absorbance values + L* a* b* parameters), the analysis pipeline was similar to that of the CIELAB dataset, while data filtering was also performed similarly to the \gls{uv} dataset.
 
 
+\section{Univariate Analysis}
 
+To detect significant statistical differences (p-value below 0.05) derived from the effects of cassava's root colors on the spectral profiles a one-way \gls{anova} with Tukey's \gls{hsd} analysis was performed for all wavelengths. \autoref{cassava_anova}A shows the top ten results ordered by decreasing p-value. In \autoref{cassava_anova}B the -log$_{10}$ of p-values plot is represented, showing an horizontal line that corresponds to a p-value threshold of 0.05. More information about these methods is available in \autoref{univariate}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{Imagens/Case_study/anova_table_plot}
+	\caption{\gls{anova} results using the \textit{colors} metadata variable (\textbf{A}) and respective plot of the -log$_{10}$ of p-values with a p-value threshold value of 0.05 (\textbf{B}).}
+	\label{cassava_anova}
+\end{figure}
+
+From \autoref{cassava_anova} it appears that wavelengths around 500$\eta m$ have a significant effect on the discrimination of cassava samples according to their color. This finding becomes more evident when looking at the -log$_{10}$ of p-values plot.
 
 
 
