@@ -1,11 +1,15 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 31.01.2017  14:57:17
-;; Indexstyle: "20jDdDf0mR", Rawindex: "6EbvtLxYxE", Output: ".\\dissertation.acr"
+;; at 02.10.2017  02:14:11
+;; Indexstyle: "jYap4DWVcO", Rawindex: "K3Rn1Bcdo0", Output: "dissertation.acr"
 
 
 Building indexentry-tree:
 Hierdepth of index is :TREE
 
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -62,23 +66,27 @@ Letter-group: "àåå¨Ð" -> "U"
 Letter-group: "´´œ" -> "L"
 Letter-group: "¨´œ" -> "I"
 Letter-group: "¤´œ" -> "H"
+Letter-group: "€¼Ãå€" -> "A"
+Letter-group: "È†€" -> "P"
+Letter-group: "¤Ð" -> "H"
+Letter-group: "¤†€" -> "H"
+Letter-group: "È´Ð" -> "P"
+Letter-group: "Ú††" -> "T"
+Letter-group: "å¨È" -> "V"
 Letter-group: "œÚ¨Ë" -> "F"
 Letter-group: "œ¨Ë" -> "F"
 Letter-group: "»¨Ë" -> "M"
 Letter-group: "¼¨Ë" -> "N"
 Letter-group: "»Ð†" -> "M"
 Letter-group: "Ð¼å" -> "S"
-Letter-group: "È†€" -> "P"
 Letter-group: "È´ÐË" -> "P"
 Letter-group: "Ð¨»†€" -> "S"
 Letter-group: "´€" -> "L"
 Letter-group: "È´Ð€" -> "P"
 Letter-group: "ÈÈ" -> "P"
 Letter-group: "Ðå»" -> "S"
-Letter-group: "€¼Ãå€" -> "A"
 Letter-group: "¨È´Ð" -> "D"
 Letter-group: "È´†€" -> "P"
-Letter-group: "È´Ð" -> "P"
 Letter-group: "È¼¼" -> "P"
 Letter-group: "€¼¼" -> "A"
 Letter-group: "ÐÈ€´€" -> "S"
@@ -91,23 +99,25 @@ Letter-group: "»´Ë" -> "M"
 Letter-group: "´†»Ð" -> "L"
 Letter-group: "†»Ð" -> "G"
 Letter-group: "¼»Ë" -> "N"
-Letter-group: "¤Ð" -> "H"
 Letter-group: "œË" -> "F"
 Letter-group: "œ†" -> "F"
-Letter-group: "¤†€" -> "H"
 Letter-group: "Ëœ—" -> "R"
 Letter-group: "ÐœÐ" -> "S"
 Letter-group: "€" -> "G"
 Letter-group: "´€ÐÐÃ" -> "L"
 Letter-group: "»Ð" -> "M"
 Letter-group: "ÚÐœ" -> "T"
-Letter-group: "€à†" -> "A"
-Letter-group: "Ë»Ð—" -> "R"
 Letter-group: "¨—" -> "I"
 Letter-group: "Ë„»Ð" -> "R"
 Letter-group: "ÐÊ´" -> "S"
+Letter-group: "€à†" -> "A"
+Letter-group: "Ë»Ð—" -> "R"
+Letter-group: "†¨—" -> "C"
+Letter-group: "¤È´†" -> "H"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "€´Ð" -> "A"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "†¨—" -> "C"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "€" -> "D"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -135,7 +145,10 @@ Letter-group: "Ë„»Ð" -> "R"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "Ðœ€" -> "S"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-Letter-group: "ÚÐœ" -> "T"
+Letter-group: "Ú††" -> "T"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "àåå¨Ð" -> "U"
-Reading raw-index "6EbvtLxYxE"...WARNING: location-reference "{}{i}" did match multiple location-classes! (taking first one)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "å¨È" -> "V"
+Reading raw-index "K3Rn1Bcdo0"...WARNING: location-reference "{}{i}" did match multiple location-classes! (taking first one)
+WARNING: location-reference "{}{x}" did match multiple location-classes! (taking first one)

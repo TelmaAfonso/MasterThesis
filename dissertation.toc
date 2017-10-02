@@ -2,7 +2,7 @@
 \contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction}}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Context}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Objectives}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Work Plan}{3}{section.1.3}
+\contentsline {section}{\numberline {1.3}Dissertation organization}{3}{section.1.3}
 \contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {State of the art}}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Techniques}{5}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Infrared Spectroscopy}{5}{subsection.2.1.1}
@@ -30,34 +30,48 @@
 \contentsline {section}{\numberline {3.6}Import Files}{44}{section.3.6}
 \contentsline {section}{\numberline {3.7}Data Visualization}{44}{section.3.7}
 \contentsline {section}{\numberline {3.8}Preprocessing}{46}{section.3.8}
-\contentsline {section}{\numberline {3.9}Data Analysis}{47}{section.3.9}
-\contentsline {subsection}{\numberline {3.9.1}Univariate Data Analysis}{48}{subsection.3.9.1}
+\contentsline {section}{\numberline {3.9}Data Analysis}{48}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}Univariate Data Analysis}{49}{subsection.3.9.1}
 \contentsline {subsubsection}{One-Way Analysis Of Variance}{49}{subsection.3.9.1}
-\contentsline {subsubsection}{Multi-factor Analysis Of Variance}{49}{figure.caption.30}
-\contentsline {subsubsection}{T-Tests, Kruskal-Wallis and Kolmogorov-Smirnov Tests}{49}{figure.caption.30}
+\contentsline {subsubsection}{Multi-factor Analysis Of Variance}{50}{figure.caption.30}
+\contentsline {subsubsection}{T-Tests, Kruskal-Wallis and Kolmogorov-Smirnov Tests}{50}{figure.caption.30}
 \contentsline {subsubsection}{Fold Change Analysis}{50}{figure.caption.30}
 \contentsline {subsection}{\numberline {3.9.2}Linear Regression Analysis}{50}{subsection.3.9.2}
-\contentsline {subsection}{\numberline {3.9.3}Unsupervised Multivariate Analysis}{50}{subsection.3.9.3}
-\contentsline {subsubsection}{Principal Components Analysis}{50}{subsection.3.9.3}
+\contentsline {subsection}{\numberline {3.9.3}Unsupervised Multivariate Analysis}{51}{subsection.3.9.3}
+\contentsline {subsubsection}{Principal Components Analysis}{51}{subsection.3.9.3}
 \contentsline {subsubsection}{Clustering Analysis}{51}{figure.caption.31}
-\contentsline {subsubsection}{Correlation Analysis}{52}{figure.caption.32}
+\contentsline {subsubsection}{Correlation Analysis}{53}{figure.caption.32}
 \contentsline {subsection}{\numberline {3.9.4}Supervised Multivariate Analysis: Machine Learning}{53}{subsection.3.9.4}
-\contentsline {subsection}{\numberline {3.9.5}Feature Selection}{53}{subsection.3.9.5}
-\contentsline {section}{\numberline {3.10}Data Model for Project, Dataset and User Management}{54}{section.3.10}
+\contentsline {subsection}{\numberline {3.9.5}Feature Selection}{54}{subsection.3.9.5}
+\contentsline {section}{\numberline {3.10}Data Model for Project, Dataset and User Management}{55}{section.3.10}
 \contentsline {section}{\numberline {3.11}Password Encryption for Authentication System}{56}{section.3.11}
 \contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Use Cases}}{59}{chapter.4}
 \contentsline {section}{\numberline {4.1}Propolis}{59}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Context}{59}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Data Overview}{60}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Preprocessing}{60}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Univariate Analysis}{61}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Clustering}{61}{subsection.4.1.5}
-\contentsline {subsection}{\numberline {4.1.6}Principal Components Analysis}{61}{subsection.4.1.6}
-\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Case Study}}{63}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{63}{section.5.1}
-\contentsline {section}{\numberline {5.2}Data types}{65}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Ultraviolet-visible Data}{65}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}CIELAB Data}{66}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Fusion Data}{66}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Univariate Analysis}{66}{section.5.3}
+\contentsline {subsection}{\numberline {4.1.2}Data Loading}{60}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Data Overview}{61}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Preprocessing}{61}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Univariate Analysis}{62}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Clustering}{63}{subsection.4.1.6}
+\contentsline {subsection}{\numberline {4.1.7}Principal Components Analysis}{64}{subsection.4.1.7}
+\contentsline {section}{\numberline {4.2}Cassava PPD}{66}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Context}{66}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Data Loading}{66}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Data Overview}{67}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Preprocessing}{67}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Principal Components Analysis}{69}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Correlation Analysis}{70}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Feature Selection}{71}{subsection.4.2.7}
+\contentsline {subsection}{\numberline {4.2.8}Machine Learning}{72}{subsection.4.2.8}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Case Study}}{75}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{75}{section.5.1}
+\contentsline {section}{\numberline {5.2}Data types}{77}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Ultraviolet-visible Data}{77}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}CIELAB Data}{78}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Fusion Data}{78}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Data Overview}{78}{section.5.3}
+\contentsline {section}{\numberline {5.4}Univariate Analysis}{80}{section.5.4}
+\contentsline {section}{\numberline {5.5}Principal Components Analysis}{80}{section.5.5}
+\contentsline {section}{\numberline {5.6}Machine Learning}{82}{section.5.6}
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Conclusions and Future Work}}{87}{chapter.6}
 \vspace \bigskipamount 

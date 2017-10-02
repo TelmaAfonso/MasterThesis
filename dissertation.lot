@@ -10,3 +10,7 @@
 \contentsline {table}{\numberline {6}{\ignorespaces \textit {Specmine} package functions for machine learning and feature selection.\relax }}{39}{table.3.6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {7}{\ignorespaces Performance values (RMSE and R$^{2}$) obtained for the different machine learning models trained with UV-visible spectrophotometry data (400-500 $\eta m$), CIELAB data and a \gls {llf} of the two. The \acrfull {tcc} determined by spectrophotometry (Lambert-Beer formula), the \gls {tcc} determined by HPLC and the total content of trans-$\beta $-carotene (the most abundant carotene in cassava roots) were used as response prediction variables.\relax }}{82}{table.caption.57}
+\contentsline {table}{\numberline {8}{\ignorespaces Top 10 \acrfull {vip} values for the best performing models when using each of the three datasets as input.\relax }}{83}{table.caption.58}
+\contentsline {table}{\numberline {9}{\ignorespaces Performance values (RMSE and R$^{2}$) obtained for a random forest model trained with UV-visible spectrophotometry data (400-500 $\eta m$), applying several pre-processing methods to the data. The total carotenoid content (TCC) determined by HPLC was used as response prediction variable.\relax }}{84}{table.caption.59}
+\addvspace {10\p@ }

@@ -13,10 +13,37 @@ Beleites, C. and Sergo, V. (2016).
 \newblock {\em hyperSpec: a package to handle hyperspectral data sets in R}.
 \newblock R package version 0.98-20161118.
 
+\bibitem[Botwey et~al., 2014]{botwey2014multi}
+Botwey, R.~H., Daskalaki, E., Diem, P., and Mougiakakou, S.~G. (2014).
+\newblock Multi-model data fusion to improve an early warning system for
+  hypo-/hyperglycemic events.
+\newblock In {\em Engineering in Medicine and Biology Society (EMBC), 2014 36th
+  Annual International Conference of the IEEE}, pages 4843--4846. IEEE.
+
 \bibitem[Brockes, 1982]{brockes1982evaluation}
 Brockes, A. (1982).
 \newblock The evaluation of whiteness.
 \newblock {\em CIE J}, (2).
+
+\bibitem[Cardoso, 2017]{sara}
+Cardoso, S. (2017).
+\newblock Development of web-based tools for metabolomics data analysis and
+  mining.
+\newblock Master's thesis, University Of Minho.
+
+\bibitem[Champagne et~al., 2010]{champagne2010carotenoid}
+Champagne, A., Bernillon, S., Moing, A., Rolin, D., Legendre, L., and Lebot, V.
+  (2010).
+\newblock Carotenoid profiling of tropical root crop chemotypes from vanuatu,
+  south pacific.
+\newblock {\em Journal of food composition and analysis}, 23(8):763--771.
+
+\bibitem[Ch{\'a}vez et~al., 2005]{chavez2005variation}
+Ch{\'a}vez, A.~L., S{\'a}nchez, T., Jaramillo, G., Bedoya, J., Echeverry, J.,
+  Bola{\~n}os, E., Ceballos, H., and Iglesias, C.~A. (2005).
+\newblock Variation of quality traits in cassava roots evaluated in landraces
+  and improved clones.
+\newblock {\em Euphytica}, 143(1):125--133.
 
 \bibitem[Cortez, 2016]{rminer}
 Cortez, P. (2016).
@@ -89,6 +116,11 @@ Hu, S., Wang, J., Ji, E.~H., Christison, T., Lopez, L., and Huang, Y. (2015).
   high performance ion chromatography coupled with a q exactive hf mass
   spectrometer.
 \newblock {\em Analytical chemistry}, 87(12):6371--6379.
+
+\bibitem[Iglesias et~al., 1997]{iglesias1997genetic}
+Iglesias, C., Mayer, J., Chavez, L., and Calle, F. (1997).
+\newblock Genetic potential and stability of carotene content in cassava roots.
+\newblock {\em Euphytica}, 94(3):367--373.
 
 \bibitem[Kansiz et~al., 1999]{kansiz1999fourier}
 Kansiz, M., Heraud, P., Wood, B., Burden, F., Beardall, J., and McNaughton, D.
