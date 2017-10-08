@@ -1,7 +1,11 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: dissertation.aux
 The style file: apalike.bst
 Database file #1: dissertation.bib
+Repeated entry---line 793 of file dissertation.bib
+ : @inproceedings{botwey2014multi
+ :                               ,
+I'm skipping whatever remains of this entry
 Warning--there's a number but no volume in brockes1982evaluation
 Warning--empty journal in kumar2013discrimination
 Warning--empty journal in soderberg2010organic
-(There were 3 warnings)
+(There was 1 error message)

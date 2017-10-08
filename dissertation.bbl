@@ -82,6 +82,11 @@ De~Lima, M.~G., Moura, M.~O., and Ar{\'i}zaga, G. G.~C. (2011).
   spectroscopy.
 \newblock {\em Zootaxa}, 2933:46--54.
 
+\bibitem[Domingos, 2012]{domingos2012few}
+Domingos, P. (2012).
+\newblock A few useful things to know about machine learning.
+\newblock {\em Communications of the ACM}, 55(10):78--87.
+
 \bibitem[Fiehn, 2002]{fiehn2002metabolomics}
 Fiehn, O. (2002).
 \newblock Metabolomics--the link between genotypes and phenotypes.
@@ -146,6 +151,12 @@ Kind, T., Tolstikov, V., Fiehn, O., and Weiss, R.~H. (2007).
 \newblock A comprehensive urinary metabolomic approach for identifying kidney
   cancer.
 \newblock {\em Analytical biochemistry}, 363(2):185--195.
+
+\bibitem[Kljak et~al., 2014]{kljak2014reflectance}
+Kljak, K., Grbe{\v{s}}a, D., and Karolyi, D. (2014).
+\newblock Reflectance colorimetry as a simple method for estimating carotenoid
+  content in maize grain.
+\newblock {\em Journal of Cereal Science}, 59(2):109--111.
 
 \bibitem[Kuhn et~al., 2016]{caret}
 Kuhn, M., Wing, J., Weston, S., Williams, A., Keefer, C., Engelhardt, A.,
@@ -219,10 +230,25 @@ Mart{\'\i}nez, A.~M. and Kak, A.~C. (2001).
 \newblock {\em IEEE transactions on pattern analysis and machine intelligence},
   23(2):228--233.
 
+\bibitem[Mel{\'e}ndez-Mart{\'\i}nez et~al., 2007]{melendez2007relationship}
+Mel{\'e}ndez-Mart{\'\i}nez, A.~J., Britton, G., Vicario, I.~M., and Heredia,
+  F.~J. (2007).
+\newblock Relationship between the colour and the chemical structure of
+  carotenoid pigments.
+\newblock {\em Food Chemistry}, 101(3):1145--1150.
+
 \bibitem[Milburn and Lawton, 2013]{milburn2013application}
 Milburn, M.~V. and Lawton, K.~A. (2013).
 \newblock Application of metabolomics to diagnosis of insulin resistance.
 \newblock {\em Annual review of medicine}, 64:291--305.
+
+\bibitem[Moresco et~al., 2017]{moresco2017classification}
+Moresco, R., Afonso, T., Uarrota, V.~G., Navarro, B.~B., Nunes, E. d.~C.,
+  Rocha, M., and Maraschin, M. (2017).
+\newblock Classification tools for carotenoid content estimation in manihot
+  esculenta via metabolomics and machine learning.
+\newblock In {\em 11th International Conference on Practical Applications of
+  Computational Biology \& Bioinformatics}, volume 616, page 280. Springer.
 
 \bibitem[Owen, 1996]{owen1996fundamentals}
 Owen, T. (1996).
@@ -254,6 +280,11 @@ Provos, N. and Mazieres, D. (1999).
 \newblock A future-adaptable password scheme.
 \newblock In {\em USENIX Annual Technical Conference, FREENIX Track}, pages
   81--91.
+
+\bibitem[Rodriguez-Amaya et~al., 2004]{rodriguez2004harvestplus}
+Rodriguez-Amaya, D.~B., Kimura, M., et~al. (2004).
+\newblock {\em HarvestPlus handbook for carotenoid analysis}, volume~2.
+\newblock International Food Policy Research Institute (IFPRI) Washington.
 
 \bibitem[Roessner and Bowne, 2009]{roessner2009metabolomics}
 Roessner, U. and Bowne, J. (2009).
@@ -330,6 +361,12 @@ Sikirzhytski, V., Virkler, K., and Lednev, I.~K. (2010).
 \newblock Discriminant analysis of raman spectra for body fluid identification
   for forensic purposes.
 \newblock {\em Sensors}, 10(4):2869--2884.
+
+\bibitem[Singh et~al., 2007]{singh2007review}
+Singh, Y., Bhatia, P.~K., and Sangwan, O. (2007).
+\newblock A review of studies on machine learning techniques.
+\newblock {\em International Journal of Computer Science and Security},
+  1(1):70--84.
 
 \bibitem[Smith and Dent, 2005]{smith2005modern}
 Smith, E. and Dent, G. (2005).

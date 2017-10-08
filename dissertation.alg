@@ -1,11 +1,12 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 02.10.2017  02:14:11
-;; Indexstyle: "jYap4DWVcO", Rawindex: "K3Rn1Bcdo0", Output: "dissertation.acr"
+;; at 08.10.2017  00:53:28
+;; Indexstyle: "LSm53MtnIe", Rawindex: "RJjv2ClcpL", Output: ".\\dissertation.acr"
 
 
 Building indexentry-tree:
 Hierdepth of index is :TREE
 
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -72,7 +73,8 @@ Letter-group: "¤Ð" -> "H"
 Letter-group: "¤†€" -> "H"
 Letter-group: "È´Ð" -> "P"
 Letter-group: "Ú††" -> "T"
-Letter-group: "å¨È" -> "V"
+Letter-group: "¤È´†" -> "H"
+Letter-group: "Ë»Ð—" -> "R"
 Letter-group: "œÚ¨Ë" -> "F"
 Letter-group: "œ¨Ë" -> "F"
 Letter-group: "»¨Ë" -> "M"
@@ -111,9 +113,9 @@ Letter-group: "¨—" -> "I"
 Letter-group: "Ë„»Ð" -> "R"
 Letter-group: "ÐÊ´" -> "S"
 Letter-group: "€à†" -> "A"
-Letter-group: "Ë»Ð—" -> "R"
+Letter-group: "È€†„„" -> "P"
 Letter-group: "†¨—" -> "C"
-Letter-group: "¤È´†" -> "H"
+Letter-group: "å¨È" -> "V"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "€´Ð" -> "A"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -139,7 +141,7 @@ Letter-group: "¼¨Ë" -> "N"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "ÃÐ†" -> "O"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-Letter-group: "È†€" -> "P"
+Letter-group: "È€†„„" -> "P"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "Ë„»Ð" -> "R"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -150,5 +152,5 @@ sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "àåå¨Ð" -> "U"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "å¨È" -> "V"
-Reading raw-index "K3Rn1Bcdo0"...WARNING: location-reference "{}{i}" did match multiple location-classes! (taking first one)
+Reading raw-index "RJjv2ClcpL"...WARNING: location-reference "{}{i}" did match multiple location-classes! (taking first one)
 WARNING: location-reference "{}{x}" did match multiple location-classes! (taking first one)

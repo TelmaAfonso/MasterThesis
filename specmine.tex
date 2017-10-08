@@ -3,7 +3,7 @@
 
 As discussed in \autoref{met_tools}, most freely available tools are limited to specific types of metabolomics or spectral data and some offer a limited portfolio of data analysis tools for the construction of analysis pipelines. 
 
-To address this problem, the R package \textit{specmine} was made available \citep{costa2016r}. It was developed under the R environment which is a free development environment for data manipulation, scientific and statistical computing and graphical visualization. \textit{Specmine} provides a set of methods for metabolomics and spectral data analysis, including data loading in various formats, data preprocessing, metabolite identification, univariate and multivariate data analysis, machine learning and also feature selection. 
+To address this problem, the R package \textit{specmine} was made available \citep{costa2016r}. It was developed under the R environment which is a free development environment for data manipulation, scientific and statistical computing and graphical visualization. \textit{Specmine} provides a set of methods for metabolomics and spectral data analysis, including data loading in various formats, data pre-processing, metabolite identification, univariate and multivariate data analysis, machine learning and also feature selection. 
 
 The implemented methods allow for the analysis of metabolomics and spectral data, including \gls{gcms}, \gls{lcms}, \gls{nmr}, \gls{ir} and \gls{uv} data, integrating many available functions provided by other metabolomics oriented R packages and also more general-purpose data analysis R functions. Some of \textit{specmine} package dependencies include:
 
@@ -119,14 +119,14 @@ A list of all \textit{specmine} functions regarding data reading and dataset str
 
 \textit{Specmine} includes functions that allow to calculate global statistics and visualize the data in a graphical way. The package can calculate the main descriptive statistics over the data matrix of a dataset for both variables and samples, having functions that can be applied over the entire dataset or to a subset of samples or variables. Graphical visualization of the data is done for instance in the form of boxplots, which allows to see the distribution of values for a set of variables. The package also provides functions for spectra plotting, where the variables are represented by numerical values. Visualization functions rely on both ggplot2 and the base graphics system of R.
 
-Preprocessing methods are also provided for the different types of data. They include methods for extracting relevant parts of a dataset, namely subsets of samples, data and metadata variables. Spectral preprocessing methods include functions for shifting correction, multiplicative scatter correction, first derivative, baseline, offset and background corrections. Some methods for smoothing interpolation are also available, including bin or loess smoothing, as well as Savitzky-Golay filters. Missing values can be treated by either removing samples and/or variables that have a number of missing values above a given threshold or replaced using a variety of different methods. 
+Preprocessing methods are also provided for the different types of data. They include methods for extracting relevant parts of a dataset, namely subsets of samples, data and metadata variables. Spectral pre-processing methods include functions for shifting correction, multiplicative scatter correction, first derivative, baseline, offset and background corrections. Some methods for smoothing interpolation are also available, including bin or loess smoothing, as well as Savitzky-Golay filters. Missing values can be treated by either removing samples and/or variables that have a number of missing values above a given threshold or replaced using a variety of different methods. 
 
-Specmine also includes functions for data normalization, which can be done by sum, median, a reference sample or feature, for data transformation using cubic root and logarithmic methods, and scaling using auto, range and pareto methods. The package also provides flat pattern filters with distinct metrics and parameters that allow to remove variables with low variance. The various \textit{specmine} functions for data exploratory analysis and preprocessing are listed in \autoref{specmine_functions_prepocessing}.
+Specmine also includes functions for data normalization, which can be done by sum, median, a reference sample or feature, for data transformation using cubic root and logarithmic methods, and scaling using auto, range and pareto methods. The package also provides flat pattern filters with distinct metrics and parameters that allow to remove variables with low variance. The various \textit{specmine} functions for data exploratory analysis and pre-processing are listed in \autoref{specmine_functions_prepocessing}.
 
 \begin{scriptsize}
 	\begin{longtable}{|m{4.3cm}|m{11cm}|}
 		%FIRST HEADER------
-		\caption{\textit{Specmine} package functions for data exploratory analysis and preprocessing.} 
+		\caption{\textit{Specmine} package functions for data exploratory analysis and pre-processing.} 
 		\label{specmine_functions_prepocessing} \\
 		\rowcolor{airforceblue}
 		\htab{Function name} & \htab{Description} \\
@@ -134,7 +134,7 @@ Specmine also includes functions for data normalization, which can be done by su
 		\endfirsthead
 		
 		%SECOND HEADER------
-		\caption[]{\textit{Specmine} package functions for data exploratory analysis and preprocessing. (Continued)} \\
+		\caption[]{\textit{Specmine} package functions for data exploratory analysis and pre-processing. (Continued)} \\
 		\rowcolor{airforceblue}
 		\htab{Function name} & \htab{Description} \\
 		\hline
