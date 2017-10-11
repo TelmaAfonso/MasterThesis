@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.17)  8 OCT 2017 00:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.17)  10 OCT 2017 14:59
 entering extended mode
 **./dissertation.tex
 (dissertation.tex
@@ -3129,7 +3129,7 @@ Overfull \hbox (6.06485pt too wide) in paragraph at lines 17--18
 mis-sion In-ter-na-tionale de L'Eclairage
  []
 
-<Imagens/Case_study/cielab.png, id=2222, 348.70274pt x 320.397pt>
+<Imagens/Case_study/cielab.png, id=2221, 348.70274pt x 320.397pt>
 File: Imagens/Case_study/cielab.png Graphic file (type png)
 
 <use Imagens/Case_study/cielab.png>
@@ -3183,16 +3183,19 @@ Package pdftex.def Info: Imagens/Case_study/spectra_plot.png used on input line
  126.
 (pdftex.def)             Requested size: 354.12434pt x 229.3582pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7273) has occurred while \output is active []
 
  [81 <./Imagens/Case_study/UV_spectra_2.png>]
-<Imagens/Case_study/carot_content_uv.png, id=2344, 991.3035pt x 349.90726pt>
+<Imagens/Case_study/carot_content_uv.png, id=2343, 991.3035pt x 349.90726pt>
 File: Imagens/Case_study/carot_content_uv.png Graphic file (type png)
 
 <use Imagens/Case_study/carot_content_uv.png>
 Package pdftex.def Info: Imagens/Case_study/carot_content_uv.png used on input 
 line 136.
 (pdftex.def)             Requested size: 442.65375pt x 156.24481pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [82 <./Imagens/Case_study/spectra_plot.png> <./Imagens/Case_study/carot_conten
 t_uv.png>]
 <Imagens/Case_study/cielab_plot2.png, id=2362, 670.9065pt x 445.06274pt>
@@ -3214,7 +3217,7 @@ Package pdftex.def Info: Imagens/Case_study/pca_plot_3.png used on input line 1
 71.
 (pdftex.def)             Requested size: 309.85626pt x 205.77623pt.
 
-Underfull \vbox (badness 4279) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [84 <./Imagens/Case_study/pca_plot_3.png>]
 <Imagens/Case_study/anova_table_plot.png, id=2401, 921.4425pt x 419.166pt>
@@ -3229,7 +3232,10 @@ line 190.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 200.
 
-[85 <./Imagens/Case_study/anova_table_plot.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85 <./Imagens/Case_study/anova_table_plot.png>]
 <Imagens/Case_study/UV_table.png, id=2427, 469.15276pt x 295.70474pt>
 File: Imagens/Case_study/UV_table.png Graphic file (type png)
 
@@ -3238,7 +3244,7 @@ Package pdftex.def Info: Imagens/Case_study/UV_table.png used on input line 208
 .
 (pdftex.def)             Requested size: 442.65375pt x 279.01831pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6001) has occurred while \output is active []
 
  [86 <./Imagens/Case_study/UV_table.png>]
 <Imagens/Case_study/UV_preproc_table.png, id=2457, 365.56575pt x 149.96025pt>
@@ -3254,20 +3260,17 @@ Overfull \hbox (2.09723pt too wide) in paragraph at lines 234--235
 []TCC[][] de-ter-mined by spec-tropho-tom-e-try (Lambert-
  []
 
-<Imagens/Case_study/CIELAB_table.png, id=2470, 467.94826pt x 265.59225pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87 <./Imagens/Case_study/UV_preproc_table.png>]
+<Imagens/Case_study/CIELAB_table.png, id=2475, 467.94826pt x 265.59225pt>
 File: Imagens/Case_study/CIELAB_table.png Graphic file (type png)
 
 <use Imagens/Case_study/CIELAB_table.png>
 Package pdftex.def Info: Imagens/Case_study/CIELAB_table.png used on input line
  240.
 (pdftex.def)             Requested size: 442.65375pt x 251.23724pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[87 <./Imagens/Case_study/UV_preproc_table.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [88 <./Imagens/Case_study/CIELAB_table.png>]
 <Imagens/Case_study/UV_cielab_table.png, id=2510, 472.164pt x 292.09125pt>
 File: Imagens/Case_study/UV_cielab_table.png Graphic file (type png)
@@ -3284,9 +3287,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [89]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [90 <./Imagens/Case_study/UV_cielab_table.png>]
+[90 <./Imagens/Case_study/UV_cielab_table.png>]
 Overfull \hbox (13.56635pt too wide) in paragraph at lines 291--292
 \OT1/pplj/m/n/10.95 chem-i-cal mark-ers to bioin-for-mat-ics tools helps sup-po
 rt-ing the ra-tio-nal de-sign of biochemically-
@@ -3332,7 +3333,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
 Here is how much of TeX's memory you used:
  44021 strings out of 493333
  809146 string characters out of 3139193
- 1169563 words of memory out of 3000000
+ 1169658 words of memory out of 3000000
  46320 multiletter control sequences out of 15000+200000
  73387 words of font info for 152 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3352,7 +3353,7 @@ C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
 rw/palatino/uplri8a.pfb>
-Output written on dissertation.pdf (123 pages, 4574822 bytes).
+Output written on dissertation.pdf (123 pages, 4583021 bytes).
 PDF statistics:
  2961 PDF objects out of 2984 (max. 8388607)
  409 named destinations out of 1000 (max. 500000)

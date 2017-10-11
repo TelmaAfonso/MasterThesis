@@ -63,7 +63,7 @@
 \contentsline {subsection}{\numberline {4.2.6}Correlation Analysis}{70}{subsection.4.2.6}
 \contentsline {subsection}{\numberline {4.2.7}Feature Selection}{71}{subsection.4.2.7}
 \contentsline {subsection}{\numberline {4.2.8}Machine Learning}{72}{subsection.4.2.8}
-\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Case Study}}{75}{chapter.5}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Case study: characterizing carotenoid contents in cassava}}{75}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{75}{section.5.1}
 \contentsline {section}{\numberline {5.2}Materials and Methods}{77}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Selection of cassava genotypes}{77}{subsection.5.2.1}
@@ -79,9 +79,9 @@
 \contentsline {subsection}{\numberline {5.3.2}CIELAB color space interpretation}{83}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}Principal Components Analysis}{84}{subsection.5.3.3}
 \contentsline {section}{\numberline {5.4}Univariate Analysis}{85}{section.5.4}
-\contentsline {section}{\numberline {5.5}Machine Learning}{85}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Carotenoid content prediction using \gls {uv} data}{85}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Carotenoid content prediction using CIELAB data}{87}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.5}Machine Learning}{86}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Carotenoid content prediction using \gls {uv} data}{86}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Carotenoid content prediction using CIELAB data}{88}{subsection.5.5.2}
 \contentsline {subsection}{\numberline {5.5.3}Carotenoid content prediction using fusion data}{89}{subsection.5.5.3}
 \contentsline {section}{\numberline {5.6}Conclusions}{91}{section.5.6}
 \contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Conclusions and Future Work}}{93}{chapter.6}

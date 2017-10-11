@@ -1,9 +1,9 @@
 
-\chapter{Case Study} \label{case_study}
+\chapter{Case study: characterizing carotenoid contents in cassava} \label{case_study}
 
-The aim of this chapter is to present a more elaborate case study, using real data from the host group, providing a meaningful pipeline with the ability to demonstrate the application's features, as well as the ones of the underlying \textit{specmine} package. This case study consists in the chemometric characterization of the carotenoid content in cassava roots tissue, using \gls{uv}, CIELAB data and a \acrfull{llf} of the two.
+The aim of this chapter is to present a more elaborate case study, using real data from one of the the host groups (Universidade Federal de Santa Catarina, Brazil), providing a meaningful pipeline with the ability to demonstrate the application's features, as well as the ones of the underlying \textit{specmine} package. This case study consists in the chemometric characterization of the carotenoid content in cassava roots tissue, using \gls{uv}, CIELAB data and a \acrfull{llf} of the two.
 
-Unlike the previous ones, the author was involved in this study since the beginning, being one of the authors of the respective publication, accepted and presented at the 11$^{th}$ International Conference on \gls{pacbb} during the development of this thesis \citep{moresco2017classification}. The extended version of the published study is in submission phase for the \textit{Journal of Inorganic Biochemistry} and is presented below.
+Unlike the previous ones, the author was involved in this study since the beginning, being one of the authors of the respective publication, accepted and presented at the 11$^{th}$ International Conference on \gls{pacbb} during the development of this thesis \citep{moresco2017classification}. The extended version of the published study has been accepted for publication in the \textit{Journal of Integrative Bioinformatics}.
 
 
 \section{Introduction}
@@ -14,7 +14,7 @@ Carotenoids are one of the most important natural pigments, having already been 
 
 With a broad range of colors, varying from yellow to dark-red, carotenoids confer color to many plant leaves, fruits and flowers, as well as birds, insects, fish, and crustaceans. The color of cassava's starchy root, which can vary from white to red, is strongly correlated to the presence and contents of several carotenoid pigments and their associations \citep{sanchez2006reduction}. However, the possibility of adopting the color of roots as an indirect criterion for selection of higher carotene content is questionable, since color is a characteristic of difficult visual evaluation. Thus, the use of a standardized color measurement technique is of most importance.
 
-The CIELAB color technique was adopted by the \gls{cie} and is based on the Lab color space, which describes mathematically all perceivable colors in three dimensions: L* for lightness and a* and b* for the color opponents green-red and blue-yellow. The values of these three variables are usually absolute, with the L* value representing the darkest black at L* = 0, and the brightest white at L* = 100. On the other hand, the a* value represents red and green opponents at positive and negative values, respectively, while the b* value represents yellow and blue opponents at positive and negative values, respectively \citep{brockes1982evaluation, schanda2007colorimetry}. A visual representation of the CIELAB color space is shown in \autoref{cielab}.
+The CIELAB color technique was adopted by the \gls{cie} and is based on the Lab color space, which describes mathematically all perceivable colors in three dimensions: L* for lightness and a* and b* for the color opponents green-red and blue-yellow. The values of these three variables are usually absolute, with the L* value representing the darkest black at L* = 0, and the brightest white at L* = 100. On the other hand, the a* value represents red and green opponents at positive and negative values, while the b* value represents yellow and blue opponents at positive and negative values, respectively \citep{brockes1982evaluation, schanda2007colorimetry}. A visual representation of the CIELAB color space is shown in \autoref{cielab}.
 
 \begin{figure}[h]
 	\centering
@@ -23,7 +23,7 @@ The CIELAB color technique was adopted by the \gls{cie} and is based on the Lab 
 	\label{cielab}
 \end{figure}
 
-Currently, CIELAB is the most used system for quantitative color description of an object, given its uniformity, ease of acquisition, very low cost and device independence. Considering that this technique facilitates the acquisition of measurements directly on the field, while also avoiding the degradation of the compounds, it becomes an appealing approach in comparison to traditionally used methods such as \gls{hplc} or \gls{uv}. The CIELAB color technique has been applied for instance in the unique identification of skin color for clinical and scientific purposes \citep{weatherall1992skin} and as an optimal color design approach for transforming patients' perception into color elements \citep{liu2014optimal}.
+Currently, CIELAB is the most used system for quantitative color description of an object, given its uniformity, ease of acquisition, very low cost and device independence. Considering that this technique facilitates the acquisition of measurements directly on the field, while also avoiding the degradation of the compounds, it becomes an appealing approach in comparison to traditionally used methods such as \gls{hplc} or \gls{uv}. The CIELAB color technique has been applied for instance in the unique identification of skin color for clinical and scientific purposes \citep{weatherall1992skin}, and as an optimal color design approach for transforming patients' perception into color elements \citep{liu2014optimal}.
 
 Combining \gls{uv} and CIELAB colorimetric data, the aim of the present case study is to validate a quantification method for carotenoid content estimation in roots of \textit{M. esculenta}, assuming that the statistical and machine learning techniques can correlate these data types, to ultimately detect genotypes of \textit{M. esculenta} with high contents of carotenoids. Importantly, this study provides tools that can support the plant-breeding program at Epagri (Agricultural Research Company and Rural Extension of the State of Santa Catarina, \href{http://www.epagri.sc.gov.br/}{\nolinkurl{http://www.epagri.sc.gov.br/}}) that aims to obtain genotypes with high levels of pro-vitamin A carotenoids and superior nutritional traits.
 
@@ -95,7 +95,7 @@ In \autoref{cassava_summary}, the summary of the different datasets used in this
 	\label{cassava_summary}
 \end{figure}
 
-This includes the summary of the cassava full \gls{uv} dataset (\autoref{cassava_summary}A) and its subset with wavelengths between 400 and 500 $\eta m$ (\autoref{cassava_summary}B), the CIELAB dataset (\autoref{cassava_summary}C) and the fusion dataset (\autoref{cassava_summary}D). All datasets are valid, having no missing values they are, therefore, ready for analysis.
+This includes the summary of the cassava full \gls{uv} dataset (\autoref{cassava_summary}A) and its subset with wavelengths between 400 and 500 $\eta m$ (\autoref{cassava_summary}B), the CIELAB dataset (\autoref{cassava_summary}C) and the fusion dataset (\autoref{cassava_summary}D). All datasets are valid, having no missing values, and therefore are ready for analysis.
 
 All R scripts, raw data and additional analysis pipelines reports are available as supplementary material at \href{http://darwin.di.uminho.pt/pacbb2017/cassava-carotenoids/}{http://darwin.di.uminho.pt/pacbb2017/cassava-carotenoids/}, allowing full reproducibility of the experiments.
 
@@ -174,16 +174,16 @@ The similarity patterns of carotenoid composition found in the previous section 
 \end{figure}
 
 
-In their set, PC1 and PC2 explain about 99.5\% of the total variance of the sample population data under this study. The performed \gls{pca} resulted in genotype grouping according to the root pulp coloration, as well as carotenoid quantification, with samples 74, 105, 119, and 125 being the most discrepant within this sample universe \autoref{pca_plot}. 
+PC1 and PC2 explain about 99.5\% of the total variance of the sample population data under this study. The performed \gls{pca} resulted in genotype grouping according to the root pulp coloration, as well as carotenoid quantification, with samples 74, 105, 119, and 125 being the most discrepant within this sample universe (\autoref{pca_plot}). 
 
 These being the samples with the highest carotenoid content show that the results here obtained are in accordance with the findings in \autoref{color_content_subsec} that positively correlate the carotenoid content with the color of the cassava roots.
 
 
 \section{Univariate Analysis} \label{univ_analysis}
 
-To detect significant statistical differences (p-value below 0.05) derived from the effects of cassava's root colors on the spectral profiles a one-way \gls{anova} with Tukey's \gls{hsd} analysis was performed for all wavelengths (200 to 700 $\eta m$). More information about these methods is available in \autoref{univariate}.
+To detect significant statistical differences (p-value below 0.05) derived from the effects of cassava's root colors on the spectral profiles, a one-way \gls{anova} with Tukey's \gls{hsd} analysis was performed for all wavelengths (200 to 700 $\eta m$). More information about these methods is available in \autoref{univariate}.
 
-For this, the discrete \textit{colors} metadata variable was used, containing the visually determined color of the roots (5 levels:  \textit{Cream}, \textit{DeepYellow}, \textit{Reddish}, \textit{White} and \textit{Yellow}). \autoref{cassava_anova}A shows the top ten results ordered by decreasing p-value. In \autoref{cassava_anova}B the -log$_{10}$ of p-values plot is represented, showing an horizontal line that corresponds to a p-value threshold of 0.05. 
+For this, the discrete \textit{colors} metadata variable was used, containing the visually determined color of the roots (5 levels:  \textit{Cream}, \textit{DeepYellow}, \textit{Reddish}, \textit{White} and \textit{Yellow}). \autoref{cassava_anova}A shows the top ten results ordered by decreasing p-value. In \autoref{cassava_anova}B,  the -log$_{10}$ of p-values plot is represented, showing an horizontal line that corresponds to a p-value threshold of 0.05. 
 
 \begin{figure}[h]
 	\centering
@@ -218,7 +218,7 @@ The worst results were obtained when using trans-$\beta$-carotene as response va
 
 When observed, the values of \acrfull{vip} for this analysis (supplementary material), which identify the most relevant variables for the validation of the method, it can be detected that the wavelengths 449, 448 and 450 nm (precisely the wavelength that is used for the quantification of $\beta$-carotene through the Lambert-Beer formula) were used in 100\%, 99.93\% and 99.76\% of cross-validation training performance. This result is important in the sense that it attests to the robustness of the models in predicting the contents of these compounds in cassava samples.
 
-By pre-processing the data, as well as applying feature selection, an overall increase in model performance for most models used was observed (supplementary material). In \autoref{UV_preproc_table} one such case is shown, where using pre-processed \gls{uv} data as input to Random Forest model (best performing model with raw data) increased even further model performance. By applying smoothing interpolation, background and offset corrections, or background correction alone, \gls{rmse} values decreased from 6.194 to 5.773, 5.936 and 6.175, respectively. $R^{2}$ values also increased from 55\% to around 60\% in each case.
+By pre-processing the data, as well as applying feature selection, an overall increase in model performance for most models used was observed (supplementary material). In \autoref{UV_preproc_table}, one such case is shown, where using pre-processed \gls{uv} data as input to Random Forest model (best performing model with raw data) increased even further model performance. By applying smoothing interpolation, background and offset corrections, or background correction alone, \gls{rmse} values decreased from 6.194 to 5.773, 5.936 and 6.175, respectively. $R^{2}$ values also increased from 55\% to around 60\% in each case.
 
 
 \begin{table}[h]
