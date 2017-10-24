@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 08.10.2017  00:53:28
-;; Indexstyle: "LSm53MtnIe", Rawindex: "RJjv2ClcpL", Output: ".\\dissertation.acr"
+;; at 23.10.2017  21:23:27
+;; Indexstyle: "IYvAnCe5JH", Rawindex: "S9ndZGT6Ut", Output: ".\\dissertation.acr"
 
 
 Building indexentry-tree:
@@ -60,8 +60,10 @@ sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 
 Forming letter-groups:
+Letter-group: "„¨Ð„¨¨" -> "B"
 Letter-group: "¨Ë" -> "I"
 Letter-group: "àåå¨Ð" -> "U"
 Letter-group: "´´œ" -> "L"
@@ -76,6 +78,7 @@ Letter-group: "Ú††" -> "T"
 Letter-group: "¤È´†" -> "H"
 Letter-group: "Ë»Ð—" -> "R"
 Letter-group: "œÚ¨Ë" -> "F"
+Letter-group: "È€†„„" -> "P"
 Letter-group: "œ¨Ë" -> "F"
 Letter-group: "»¨Ë" -> "M"
 Letter-group: "¼¨Ë" -> "N"
@@ -113,11 +116,12 @@ Letter-group: "¨—" -> "I"
 Letter-group: "Ë„»Ð" -> "R"
 Letter-group: "ÐÊ´" -> "S"
 Letter-group: "€à†" -> "A"
-Letter-group: "È€†„„" -> "P"
 Letter-group: "†¨—" -> "C"
 Letter-group: "å¨È" -> "V"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "€´Ð" -> "A"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "„¨Ð„¨¨" -> "B"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "†¨—" -> "C"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -152,5 +156,4 @@ sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "àåå¨Ð" -> "U"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "å¨È" -> "V"
-Reading raw-index "RJjv2ClcpL"...WARNING: location-reference "{}{i}" did match multiple location-classes! (taking first one)
-WARNING: location-reference "{}{x}" did match multiple location-classes! (taking first one)
+Reading raw-index "S9ndZGT6Ut"...WARNING: location-reference "{}{i}" did match multiple location-classes! (taking first one)

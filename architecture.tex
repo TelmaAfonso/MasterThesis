@@ -1,40 +1,40 @@
 
 \section{Platform Architecture}
 
-The developed platform has modules which cover the main steps of a metabolomics data analysis workflow, of which the ones focusing on spectral data will be emphasized, as well as modules to handle public and private user's projects. 
+The developed platform has modules that cover the main steps of a metabolomics data analysis workflow, of which the ones focusing on spectral data will be emphasized, as well as modules to handle public and private user's projects. 
 
-A graphical representation of the application's modules structure is shown in \autoref{website}, while the files structure is represented in 
+A graphical representation of the application's modules structure is shown in \autoref{website}, while the file structure is represented in \autoref{file_structure}.
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{Imagens/website}
-	\caption{Graphical representation of the application's structure.}
+	\includegraphics[width=1\linewidth]{Imagens/website_2}
+	\caption{Graphical representation of the application's structure, portraying the modules accessible by both non authenticated and authenticated users (green rectangle) or modules accessible only by the latter (yellow rectangle). *Non authenticated users can only view the information contained within the \textit{Public Projects} page, without the possibility to use said information.}
 	\label{website}
 \end{figure}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=1\linewidth]{Imagens/file_structure}
-	\caption{Graphical representation of the application's file structure. The filenames in bold represent the files to which I greatly or totally contributed to, given the scope of this work.}
-	\label{file_structure}
-\end{figure}
 
 The application layout consists in a dashboard with three components: a header, the sidebar and the body, which was created using the R library \textit{shinydashboard}. 
 
-The dashboard header gives access to the \textit{Data Visualization}, \textit{Pre-processing} and \textit{Run Analysis} modules, as well as the \textit{Saving} and \textit{Loading Workspace} options. The header also includes the option to load a project, which is done through the \textit{Choose Files} button if the user is logged in, or through the \textit{New Project} button if the user is off-line. Lastly, the dashboard header also includes a button to handle the authentication of the user and his account options. 
+The dashboard header gives access to the \textit{Data Visualization}, \textit{Pre-processing} and \textit{Run Analysis} modules, as well as the \textit{Saving} and \textit{Loading Workspace} options. The header also includes the option to load a project, which is done through the \textit{Choose Files} button if the user is logged in, or through the \textit{New Project} button otherwise. Lastly, the dashboard header also includes a button to handle the authentication of the user and his account options. 
 
-On the other hand, the dashboard sidebar includes three tabs: the \textit{Home} tab, which represents the main page of the web application; the \textit{My Projects} tab, which contains information about the user's stored projects, and the \textit{Public Projects} tab where all user's shared projects are shown. When a project is loaded the current dataset is also shown on the sidebar. The analysis results can be accessed in the \textit{Analysis Results} menu.
 
-The dashboard organization can be viewed in \autoref{webspecmine_home}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Imagens/file_structure}
+	\caption{Graphical representation of the application's file structure. The filenames in bold represent the files to which the author of this dissertation greatly or totally contributed to, given the scope of this work.}
+	\label{file_structure}
+\end{figure}
 
-\begin{figure}[h]
+On the other hand, the dashboard sidebar includes four tabs: the \textit{Home} tab, which represents the main page of the web application; the \textit{My Projects} tab, containing information about the user's stored projects; the \textit{Public Projects} tab where all user's shared projects are shown; and the \textit{HELP} tab that contains helpful information about each feature available on the platform, under the form of text or, in a near future, as tutorial videos. When a project is loaded the current dataset is also shown on the sidebar. The analysis results can be accessed in the \textit{Analysis Results} menu.
+
+The dashboard organization can be viewed in \autoref{webspecmine_home}, where the main page of the web platform is shown. The different modules will be discussed in the following sections. 
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{Imagens/webspecmine_home}
 	\caption{Main page of the web application.}
 	\label{webspecmine_home}
 \end{figure}
-
-The different modules will be discussed in the following sections.  
 
 
 \section{Authentication System}
@@ -78,9 +78,9 @@ The modules that handle public and private user's projects are \textit{Public Pr
 
 To access the \textit{My Projects} page, the user must be authenticated. Here, all the user's saved projects are displayed, including each project's description, datasets, metadata and report files. 
 
-The user is able to create new projects and data folders for each project and also to edit their information, including the data type in the case of a data folder or name and description in both cases. Both projects and folders can be deleted.
+The user is able to create new projects and data folders for each project and also to edit their information, including the data type in the case of a data folder or name and description in both cases. Both projects and folders can be deleted, as well as the files contained within the folders.
 
-For each data and metadata folder one or multiple files can be uploaded, which can be later used in an analysis. When creating a project the user can decide whether or not to make it public, in which case it will be available for every user. The project status can be changed at anytime using the circular button for the effect. All the user's stored files in this module can be viewed or downloaded at any time. A zoomed view of the \textit{My Projects} page with the metadata tab selected is shown in \autoref{webspecmine_myprojs}.
+For each data and metadata folder one or multiple files can be uploaded, to be later used in an analysis. When creating a project the user can decide whether or not to make it public, in which case it will be available for every user. The project status can be changed at anytime using the circular button for the effect. All the user's stored files in this module can be viewed or downloaded at any time. A zoomed view of the \textit{My Projects} page with the metadata tab selected is shown in \autoref{webspecmine_myprojs}.
 
 \begin{figure}[h]
 	\centering
@@ -89,7 +89,7 @@ For each data and metadata folder one or multiple files can be uploaded, which c
 	\label{webspecmine_myprojs}
 \end{figure}
 
-The \textit{Public Projects} module can be accessed without any kind of authentication. Here, all projects that have been made public are displayed in table format, with information about the project name, author and data type. Any project can be imported into the user's private projects collection, given that the project itself is not owned by the user and he does not already own a project by that name. Each project in this module has a description, data, metadata and reports files associated, as in the previous module, that can be viewed at any given time. To obtain the latest list of public projects a \textit{refresh} button is provided.
+The \textit{Public Projects} module can be accessed without any kind of authentication. Here, all projects that have been made public are displayed in table format, with information about the project name, author and data type. Any project can be imported into the user's private projects collection, given that the user is authenticated and the project itself is not owned by the user nor does he already own a project by that name. Each project in this module has a description, data, metadata and reports files associated, as in the previous module, that can be viewed at any given time. To obtain the latest list of public projects a \textit{refresh} button is provided.
 
 An important feature also present in the web application is the ability to save and load the workspace. This way, all the data and results the user is currently working on can be saved into his account for later use, thus providing the ability to continue the analysis at any given time.
 
@@ -146,7 +146,7 @@ A list with all the pre-processing approaches available in the web application a
 \begin{multicols}{2}
 	\begin{itemize}
 		\item \textbf{Aggregate samples}
-		\item \textbf{Create subset}	
+		\item \textbf{Create subset by interval}	
 		\item \textbf{Data correction}
 		\begin{itemize}
 			\item[\textbf{M}] Baseline; background; offset
@@ -162,6 +162,7 @@ A list with all the pre-processing approaches available in the web application a
 			\item[\textbf{M}] Logarithmic; cubic root
 %			\item[\textbf{F}] \textit{transform\_data}
 		\end{itemize}
+		\item \textbf{\acrlong{llf}}
 		\item \textbf{Factor conversion}
 %		\begin{itemize}
 %			\item[\textbf{F}] \textit{convert\_to\_factor}
@@ -193,7 +194,12 @@ A list with all the pre-processing approaches available in the web application a
 %		\begin{itemize}
 %			\item[\textbf{F}] \textit{msc\_correction}
 %		\end{itemize}	
-		\item \textbf{Remove data}	
+		\item \textbf{Remove data}
+		\item \textbf{Remove data by NAs}
+		\begin{itemize}
+			\item[\textbf{M}] Value; Percentage; NAs in metadata
+			%			\item[\textbf{F}] \textit{scaling}
+		\end{itemize}	
 		\item \textbf{Scaling}
 		\begin{itemize}
 			\item[\textbf{M}] Auto; pareto; range
@@ -205,7 +211,8 @@ A list with all the pre-processing approaches available in the web application a
 
 %These include mean centering (\textit{mean\_centering}), logarithmic and cubic root data transformations (\textit{transform\_data}), scaling with auto, pareto and range methods (\textit{scaling}), baseline, offset and background corrections (\textit{data\_correction}), smoothing interpolation with methods bin, Loess and Savitzky-Golay (\textit{smoothing\_interpolation}), factor conversion (\textit{convert\_to\_factor}), first derivative (\textit{first\_derivative}), \gls{msc} (\textit{msc\_correction}), data normalization with methods sum and median (\textit{normalize}), missing values handling with methods mean, given value, median, \gls{knn} and linear approximation (\textit{missingvalues\_imputation}), and lastly flat pattern filter with methods interquartile range, relative standard deviation, standard deviation, median absolute deviation, mean and median with option to filter by percentage or threshold (\textit{flat\_pattern\_filter}). 
 
-In \autoref{webspecmine_preprocessing}, a zoomed view of the \textit{Pre-Processing} page is shown, where some of the already mentioned methods, such as missing value handling, mean centering, data transformation, scaling and flat patter filter are emphasized.
+In \autoref{webspecmine_preprocessing}, a zoomed view of the \textit{Pre-Processing} page is shown, where some of the already mentioned methods, such as missing values handling, data transformation, scaling, data correction, subset creation and data removal are emphasized.
+
 
 \begin{figure}[h]
 	\centering
@@ -218,7 +225,7 @@ In \autoref{webspecmine_preprocessing}, a zoomed view of the \textit{Pre-Process
 
 \section{Data Analysis}
 
-Opening the \textit{Run Analysis} page is the first step to perform data analysis using the web application. In this page, each analysis type (or group of analysis) is assigned to a panel with the respective information and a button that leads into the corresponding analyses page, (\autoref{webspecmine_runanalysis}). Currently, there are available univariate analysis such as \gls{anova}, fold change analysis, T-Tests, Kruskal-Wallis and Kolmogorov-Smirnov tests. Unsupervised multivariate analysis include \gls{pca}, hierarchical and k-means clustering and correlation analysis. Other available supervised analyses are machine learning, regression analysis, feature selection and metabolite identification. Since the data types emphasized throughout this work (\gls{uv}, \gls{ir} and Raman) are not usually employed in metabolite identification this type of analysis won't be here discussed. 
+Opening the \textit{Run Analysis} page is the first step to perform data analysis using the web application. In this page, each analysis type (or group of analysis) is assigned to a panel with the respective information and a button that leads into the corresponding analyses page, (\autoref{webspecmine_runanalysis}). Currently, there are available univariate analysis such as \gls{anova}, fold change analysis, T-Tests, Kruskal-Wallis and Kolmogorov-Smirnov tests. Unsupervised multivariate analysis include \gls{pca}, hierarchical and k-means clustering and correlation analysis. Other available supervised analyses are machine learning, regression analysis, feature selection and metabolite identification. As already stated, considering the data types emphasized throughout this work (\gls{uv}, \gls{ir} and Raman) are not usually employed in metabolite identification this type of analysis won't be here discussed. 
 
 \begin{figure}[h]
 	\centering
@@ -236,7 +243,7 @@ Regarding univariate data analysis, the web application is able to perform eithe
 
 \subsubsection{One-Way Analysis Of Variance}
 
-When performing a one-way \gls{anova} the user must select the metadata variable to use and whether the Tuckey's \gls{hsd} test should be applied. Plot options include the p-value threshold and whether the \textit{x} axis should be reversed. In the results page, a table with the p-value, logarithm of p-value, \gls{fdr} and Tuckey's test results, if it was selected during the analysis, is shown. The table results are ordered by p-value, but can be also ordered by any other result type and searched for a specific term (\autoref{webspecmine_anova}). For this type of analysis, a plot is also shown, with the negative base 10 logarithm of the p-value represented on the \textit{y} axis and variables represented on the \textit{x} axis. 
+When performing a one-way \gls{anova} the user must select the metadata variable to use and whether the Tukey's \gls{hsd} test should be applied. Plot options include the p-value threshold and whether the \textit{x} axis should be reversed. In the results page, a table with the p-value, logarithm of p-value, \gls{fdr} and Tukey's test results, if it was selected during the analysis, is shown. The table results are ordered by p-value, but can be also ordered by any other result type and searched for a specific term (\autoref{webspecmine_anova}). For this type of analysis, a plot is also shown, with the negative base 10 logarithm of the p-value represented on the \textit{y} axis and variables represented on the \textit{x} axis. 
 
 \begin{figure}[h]
 	\centering

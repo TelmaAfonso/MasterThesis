@@ -33,7 +33,7 @@ Hashing is the transformation of a string of characters into a usually shorter f
 
 \textit{Bcrypt} has the option to incorporate a salt, that is, a random data that is used as an additional input to the hash function, providing additional defense against dictionary attacks or against its hashed equivalent, a pre-computed rainbow table attack. \textit{Bcrypt} is an adaptive function: over time, the iteration count can be increased to make it slower, so it remains resistant to brute-force search attacks even with increasing computation power.
 
-For each password chosen by the users a random salt is generated, using the \textit{gensalt} function, which is stored in the database. The password string is then hashed with the generated salt using the \textit{hashph} function, and the hash code stored in the database as well. 
+For each password chosen by the users a random salt is generated, using the \textit{gensalt} function, which is stored in the database. The password string is then hashed with the generated salt using the \textit{hashpw} function, and the hash code stored in the database as well. 
 
 To authenticate a user, when the application receives a username and password, it performs the hashing operation using the password and stored salt and compares the resulting hashed value with the password hash stored in the database for the particular user. If the two hashes are an exact match, the user provided a valid username and password (\autoref{hash}).
 

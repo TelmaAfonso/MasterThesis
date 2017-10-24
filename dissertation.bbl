@@ -5,12 +5,12 @@ Barbosa-Garc{\'\i}a, O., Ramos-Ortiz, G., Maldonado, J., Pichardo-Molina, J.,
   Meneses-Nava, M., Landgrave, J., and Cervantes-Mart{\'\i}nez, J. (2007).
 \newblock Uv--vis absorption spectroscopy and multivariate analysis as a method
   to discriminate tequila.
-\newblock {\em Spectrochimica Acta Part A: Molecular and Biomolecular
+\newblock {\em Spectrochimica {A}cta {P}art {A}: {M}olecular and {B}iomolecular
   Spectroscopy}, 66(1):129--134.
 
 \bibitem[Beleites and Sergo, 2016]{hyperspec}
 Beleites, C. and Sergo, V. (2016).
-\newblock {\em hyperSpec: a package to handle hyperspectral data sets in R}.
+\newblock {\em hyperSpec: a package to handle hyperspectral data sets in {R}}.
 \newblock R package version 0.98-20161118.
 
 \bibitem[Botwey et~al., 2014]{botwey2014multi}
@@ -23,7 +23,7 @@ Botwey, R.~H., Daskalaki, E., Diem, P., and Mougiakakou, S.~G. (2014).
 \bibitem[Brockes, 1982]{brockes1982evaluation}
 Brockes, A. (1982).
 \newblock The evaluation of whiteness.
-\newblock {\em CIE J}, (2).
+\newblock {\em Computers \& {I}ndustrial {E}ngineering}, (2).
 
 \bibitem[Cardoso, 2017]{sara}
 Cardoso, S. (2017).
@@ -34,9 +34,9 @@ Cardoso, S. (2017).
 \bibitem[Champagne et~al., 2010]{champagne2010carotenoid}
 Champagne, A., Bernillon, S., Moing, A., Rolin, D., Legendre, L., and Lebot, V.
   (2010).
-\newblock Carotenoid profiling of tropical root crop chemotypes from vanuatu,
-  south pacific.
-\newblock {\em Journal of food composition and analysis}, 23(8):763--771.
+\newblock Carotenoid profiling of tropical root crop chemotypes from {Vanuatu,
+  South Pacific}.
+\newblock {\em Journal of {F}ood {C}omposition and {A}nalysis}, 23(8):763--771.
 
 \bibitem[Ch{\'a}vez et~al., 2005]{chavez2005variation}
 Ch{\'a}vez, A.~L., S{\'a}nchez, T., Jaramillo, G., Bedoya, J., Echeverry, J.,
@@ -52,9 +52,10 @@ Cortez, P. (2016).
 
 \bibitem[Costa et~al., 2016]{costa2016r}
 Costa, C., Maraschin, M., and Rocha, M. (2016).
-\newblock An r package for the integrated analysis of metabolomics and spectral
-  data.
-\newblock {\em Computer methods and programs in biomedicine}, 129:117--124.
+\newblock An {R} package for the integrated analysis of metabolomics and
+  spectral data.
+\newblock {\em Computer {M}ethods and {P}rograms in {B}iomedicine},
+  129:117--124.
 
 \bibitem[Cozzolino et~al., 2006]{cozzolino2006combining}
 Cozzolino, D., Flood, L., Bellon, J., Gishen, M., and De~Barros~Lopes, M.
@@ -73,24 +74,24 @@ Darlington, R.~B. and Hayes, A.~F. (2016).
 \bibitem[Daviss, 2005]{daviss2005growing}
 Daviss, B. (2005).
 \newblock Growing pains for metabolomics: the newest'omic science is producing
-  results--and more data than researchers know what to do with.
-\newblock {\em The Scientist}, 19(8):25--29.
+  results and more data than researchers know what to do with.
+\newblock {\em The {S}cientist}, 19(8):25--29.
 
 \bibitem[De~Lima et~al., 2011]{de2011barcoding}
 De~Lima, M.~G., Moura, M.~O., and Ar{\'i}zaga, G. G.~C. (2011).
-\newblock Barcoding without dna? species identification using near infrared
+\newblock Barcoding without {DNA}? {S}pecies identification using near infrared
   spectroscopy.
 \newblock {\em Zootaxa}, 2933:46--54.
 
 \bibitem[Domingos, 2012]{domingos2012few}
 Domingos, P. (2012).
 \newblock A few useful things to know about machine learning.
-\newblock {\em Communications of the ACM}, 55(10):78--87.
+\newblock {\em Communications of the {ACM}}, 55(10):78--87.
 
 \bibitem[Fiehn, 2002]{fiehn2002metabolomics}
 Fiehn, O. (2002).
-\newblock Metabolomics--the link between genotypes and phenotypes.
-\newblock {\em Plant molecular biology}, 48(1-2):155--171.
+\newblock Metabolomics -- the link between genotypes and phenotypes.
+\newblock {\em Plant {M}olecular {B}iology}, 48(1-2):155--171.
 
 \bibitem[Fourati, 2016]{fourati2015multisensor}
 Fourati, H. (2016).
@@ -103,7 +104,7 @@ Grissa, D., P{\'e}t{\'e}ra, M., Brandolini, M., Napoli, A., Comte, B., and
   Pujos-Guillot, E. (2016).
 \newblock Feature selection methods for early predictive biomarker discovery
   using untargeted metabolomic data.
-\newblock {\em Frontiers in Molecular Biosciences}, 3.
+\newblock {\em Frontiers in {M}olecular {B}iosciences}, 3.
 
 \bibitem[Hanson, 2016]{chemospec}
 Hanson, B.~A. (2016).
@@ -118,9 +119,9 @@ Hastie, T., Tibshirani, R., and Friedman, J. (2009).
 \bibitem[Hu et~al., 2015]{hu2015targeted}
 Hu, S., Wang, J., Ji, E.~H., Christison, T., Lopez, L., and Huang, Y. (2015).
 \newblock Targeted metabolomic analysis of head and neck cancer cells using
-  high performance ion chromatography coupled with a q exactive hf mass
+  high performance ion chromatography coupled with a {Q} {E}xactive {HF} mass
   spectrometer.
-\newblock {\em Analytical chemistry}, 87(12):6371--6379.
+\newblock {\em Analytical {C}hemistry}, 87(12):6371--6379.
 
 \bibitem[Iglesias et~al., 1997]{iglesias1997genetic}
 Iglesias, C., Mayer, J., Chavez, L., and Calle, F. (1997).
@@ -138,25 +139,26 @@ Kansiz, M., Heraud, P., Wood, B., Burden, F., Beardall, J., and McNaughton, D.
 Khairudin, K., Sukiran, N.~A., Goh, H.-H., Baharum, S.~N., and Noor, N.~M.
   (2014).
 \newblock Direct discrimination of different plant populations and study on
-  temperature effects by fourier transform infrared spectroscopy.
+  temperature effects by {F}ourier transform infrared spectroscopy.
 \newblock {\em Metabolomics}, 10(2):203--211.
 
 \bibitem[Kim, 2014]{kim2014analysis}
 Kim, H.-Y. (2014).
-\newblock Analysis of variance (anova) comparing means of more than two groups.
-\newblock {\em Restorative dentistry \& endodontics}, 39(1):74--77.
+\newblock Analysis of variance {(ANOVA)} comparing means of more than two
+  groups.
+\newblock {\em Restorative {D}entistry \& {E}ndodontics}, 39(1):74--77.
 
 \bibitem[Kind et~al., 2007]{kind2007comprehensive}
 Kind, T., Tolstikov, V., Fiehn, O., and Weiss, R.~H. (2007).
 \newblock A comprehensive urinary metabolomic approach for identifying kidney
   cancer.
-\newblock {\em Analytical biochemistry}, 363(2):185--195.
+\newblock {\em Analytical {B}iochemistry}, 363(2):185--195.
 
 \bibitem[Kljak et~al., 2014]{kljak2014reflectance}
 Kljak, K., Grbe{\v{s}}a, D., and Karolyi, D. (2014).
 \newblock Reflectance colorimetry as a simple method for estimating carotenoid
   content in maize grain.
-\newblock {\em Journal of Cereal Science}, 59(2):109--111.
+\newblock {\em Journal of {C}ereal {S}cience}, 59(2):109--111.
 
 \bibitem[Kuhn et~al., 2016]{caret}
 Kuhn, M., Wing, J., Weston, S., Williams, A., Keefer, C., Engelhardt, A.,
@@ -167,113 +169,117 @@ Kuhn, M., Wing, J., Weston, S., Williams, A., Keefer, C., Engelhardt, A.,
 
 \bibitem[Kumar et~al., 2013]{kumar2013discrimination}
 Kumar, S., Panchariya, P., Prasad, B., and Sharma, A. (2013).
-\newblock Discrimination of indian tea varieties using uv-vis-nir
+\newblock Discrimination of indian tea varieties using {UV-VIS-NIR}
   spectrophotometer and pattern recognition techniques.
-\newblock 2(2):15--19.
+\newblock {\em International {J}ournal of {C}omputer {S}cience and
+  {C}ommunication {E}ngineering}, 2(2):15--19.
 
 \bibitem[Kumar and Minz, 2014]{kumar2014feature}
 Kumar, V. and Minz, S. (2014).
 \newblock Feature selection: A literature review.
-\newblock {\em SmartCR}, 4(3):211--229.
+\newblock {\em Smart {C}omputing {R}eview}, 4(3):211--229.
 
 \bibitem[Kus et~al., 1996]{kus1996derivative}
 Kus, S., Marczenko, Z., and Obarski, N. (1996).
-\newblock Derivative uv--vis spectrophotometry in analytical chemistry.
-\newblock {\em Chern Anal}, 41:899--927.
+\newblock Derivative {UV--VIS} spectrophotometry in analytical chemistry.
+\newblock {\em Analytical {C}hemistry}, 41:899--927.
 
 \bibitem[La~Frano et~al., 2013]{la2013biofortified}
 La~Frano, M.~R., Woodhouse, L.~R., Burnett, D.~J., and Burri, B.~J. (2013).
 \newblock Biofortified cassava increases $\beta$-carotene and vitamin a
-  concentrations in the tag-rich plasma layer of american women.
-\newblock {\em British Journal of Nutrition}, 110(2):310--320.
+  concentrations in the {TAG-rich} plasma layer of {A}merican women.
+\newblock {\em British {J}ournal of {N}utrition}, 110(2):310--320.
 
 \bibitem[Larsen and Von~Ins, 2010]{larsen2010rate}
 Larsen, P.~O. and Von~Ins, M. (2010).
 \newblock The rate of growth in scientific publication and the decline in
-  coverage provided by science citation index.
+  coverage provided by {S}cience {C}itation {I}ndex.
 \newblock {\em Scientometrics}, 84(3):575--603.
 
 \bibitem[Lee et~al., 2013]{lee2013application}
 Lee, K.-M., Herrman, T.~J., Nansen, C., and Yun, U. (2013).
-\newblock Application of raman spectroscopy for qualitative and quantitative
+\newblock Application of {R}aman spectroscopy for qualitative and quantitative
   detection of fumonisins in ground maize samples.
-\newblock {\em Journal of Regulatory Science}, 1(1):1--14.
+\newblock {\em Journal of {R}egulatory {S}cience}, 1(1):1--14.
 
 \bibitem[Liland, 2011]{liland2011multivariate}
 Liland, K.~H. (2011).
 \newblock Multivariate methods in metabolomics--from pre-processing to
   dimension reduction and statistical analysis.
-\newblock {\em TrAC Trends in Analytical Chemistry}, 30(6):827--841.
+\newblock {\em Trends in {A}nalytical {C}hemistry}, 30(6):827--841.
 
 \bibitem[Lin et~al., 2005]{lin2005rapid}
 Lin, M., Al-Holy, M., Chang, S.-S., Huang, Y., Cavinato, A.~G., Kang, D.-H.,
   and Rasco, B.~A. (2005).
-\newblock Rapid discrimination of alicyclobacillus strains in apple juice by
-  fourier transform infrared spectroscopy.
-\newblock {\em International journal of food microbiology}, 105(3):369--376.
+\newblock Rapid discrimination of {A}licyclobacillus strains in apple juice by
+  {F}ourier transform infrared spectroscopy.
+\newblock {\em International {J}ournal of {F}ood {M}icrobiology},
+  105(3):369--376.
 
 \bibitem[Liu et~al., 2014]{liu2014optimal}
 Liu, W., Ji, J., Chen, H., and Ye, C. (2014).
 \newblock Optimal color design of psychological counseling room by design of
   experiments and response surface methodology.
-\newblock {\em PloS one}, 9(3):e90646.
+\newblock {\em PloS {O}ne}, 9(3):e90646.
 
 \bibitem[MacFarland and Yates, 2016]{macfarland2016introduction}
 MacFarland, T.~W. and Yates, J.~M. (2016).
 \newblock {\em Introduction to nonparametric statistics for the biological
-  sciences using R}.
+  sciences using {R}}.
 \newblock Springer International Publishing AG, Switzerland.
 
 \bibitem[Mart{\'\i}nez and Kak, 2001]{martinez2001pca}
 Mart{\'\i}nez, A.~M. and Kak, A.~C. (2001).
-\newblock Pca versus lda.
-\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
-  23(2):228--233.
+\newblock {PCA} versus {LDA}.
+\newblock {\em IEEE {T}ransactions on {P}attern {A}nalysis and {M}achine
+  {I}ntelligence}, 23(2):228--233.
 
 \bibitem[Mel{\'e}ndez-Mart{\'\i}nez et~al., 2007]{melendez2007relationship}
 Mel{\'e}ndez-Mart{\'\i}nez, A.~J., Britton, G., Vicario, I.~M., and Heredia,
   F.~J. (2007).
 \newblock Relationship between the colour and the chemical structure of
   carotenoid pigments.
-\newblock {\em Food Chemistry}, 101(3):1145--1150.
+\newblock {\em Food {C}hemistry}, 101(3):1145--1150.
 
 \bibitem[Milburn and Lawton, 2013]{milburn2013application}
 Milburn, M.~V. and Lawton, K.~A. (2013).
 \newblock Application of metabolomics to diagnosis of insulin resistance.
-\newblock {\em Annual review of medicine}, 64:291--305.
+\newblock {\em Annual {R}eview of {M}edicine}, 64:291--305.
 
 \bibitem[Moresco et~al., 2017]{moresco2017classification}
 Moresco, R., Afonso, T., Uarrota, V.~G., Navarro, B.~B., Nunes, E. d.~C.,
   Rocha, M., and Maraschin, M. (2017).
-\newblock Classification tools for carotenoid content estimation in manihot
+\newblock Classification tools for carotenoid content estimation in {M}anihot
   esculenta via metabolomics and machine learning.
-\newblock In {\em 11th International Conference on Practical Applications of
-  Computational Biology \& Bioinformatics}, volume 616, page 280. Springer.
+\newblock In {\em Advances in Intelligent Systems and Computing}, volume 616,
+  page 280. Springer International Publishing AG, Cham, Switzerland.
 
 \bibitem[Owen, 1996]{owen1996fundamentals}
 Owen, T. (1996).
-\newblock {\em Fundamentals of modern UV-Visible spectroscopy: A Primer}.
+\newblock {\em Fundamentals of modern {UV-Visible} spectroscopy: {A} {P}rimer}.
 \newblock Hewlett-Packard, Palo-Alto.
 
 \bibitem[Pereira et~al., 2011]{pereira2011madeira}
 Pereira, A.~C., Reis, M.~S., Saraiva, P.~M., and Marques, J.~C. (2011).
 \newblock Madeira wine ageing prediction based on different analytical
-  techniques: Uv--vis, gc-ms, hplc-dad.
-\newblock {\em Chemometrics and Intelligent Laboratory Systems}, 105(1):43--55.
+  techniques: {UV--vis, GC-MS, HPLC-DAD}.
+\newblock {\em Chemometrics and {I}ntelligent {L}aboratory {S}ystems},
+  105(1):43--55.
 
 \bibitem[Polshin et~al., 2011]{polshin2011beer}
 Polshin, E., Aernouts, B., Saeys, W., Delvaux, F., Delvaux, F.~R., Saison, D.,
   Hertog, M., Nicola{\"\i}, B.~M., and Lammertyn, J. (2011).
-\newblock Beer quality screening by ft-ir spectrometry: Impact of measurement
-  strategies, data pre-processings and variable selection algorithms.
-\newblock {\em Journal of food engineering}, 106(3):188--198.
+\newblock Beer quality screening by {FT-IR} spectrometry: {I}mpact of
+  measurement strategies, data pre-processings and variable selection
+  algorithms.
+\newblock {\em Journal of {F}ood {E}ngineering}, 106(3):188--198.
 
 \bibitem[Preisner et~al., 2007]{preisner2007fourier}
 Preisner, O., Lopes, J.~A., Guiomar, R., Machado, J., and Menezes, J.~C.
   (2007).
-\newblock Fourier transform infrared (ft-ir) spectroscopy in bacteriology:
+\newblock Fourier transform infrared {(FT-IR)} spectroscopy in bacteriology:
   towards a reference method for bacteria discrimination.
-\newblock {\em Analytical and bioanalytical chemistry}, 387(5):1739--1748.
+\newblock {\em Analytical and {B}ioanalytical {C}hemistry}, 387(5):1739--1748.
 
 \bibitem[Provos and Mazieres, 1999]{provos1999future}
 Provos, N. and Mazieres, D. (1999).
@@ -293,7 +299,7 @@ Roessner, U. and Bowne, J. (2009).
 
 \bibitem[Roggo et~al., 2010]{roggo2010identification}
 Roggo, Y., Degardin, K., and Margot, P. (2010).
-\newblock Identification of pharmaceutical tablets by raman spectroscopy and
+\newblock Identification of pharmaceutical tablets by {R}aman spectroscopy and
   chemometrics.
 \newblock {\em Talanta}, 81(3):988--995.
 
@@ -301,60 +307,61 @@ Roggo, Y., Degardin, K., and Margot, P. (2010).
 Rosenblum, E., Viant, M., Braid, B., Moore, J., Friedman, C., and Tjeerdema, R.
   (2005).
 \newblock Characterizing the metabolic actions of natural stresses in the
-  california red abalone, haliotis rufescens using 1h nmr metabolomics.
+  {C}alifornia red abalone, {H}aliotis rufescens using {1H NMR} metabolomics.
 \newblock {\em Metabolomics}, 1(2):199--209.
 
 \bibitem[Roussel et~al., 2003]{roussel2003fusion}
 Roussel, S., Bellon-Maurel, V., Roger, J.-M., and Grenier, P. (2003).
-\newblock Fusion of aroma, ft-ir and uv sensor data based on the bayesian
-  inference. application to the discrimination of white grape varieties.
-\newblock {\em Chemometrics and Intelligent Laboratory Systems},
+\newblock Fusion of aroma, {FT-IR and UV} sensor data based on the {B}ayesian
+  inference. {A}pplication to the discrimination of white grape varieties.
+\newblock {\em Chemometrics and {I}ntelligent {L}aboratory {S}ystems},
   65(2):209--219.
 
 \bibitem[Sacr{\'e} et~al., 2011]{sacre2011detection}
 Sacr{\'e}, P.-Y., Deconinck, E., Saerens, L., De~Beer, T., Courselle, P.,
   Vancauwenberghe, R., Chiap, P., Crommen, J., and De~Beer, J.~O. (2011).
-\newblock Detection of counterfeit viagra{\textregistered} by raman
+\newblock Detection of counterfeit viagra{\textregistered} by {R}aman
   microspectroscopy imaging and multivariate analysis.
-\newblock {\em Journal of pharmaceutical and biomedical analysis},
+\newblock {\em Journal of {P}harmaceutical and {B}iomedical {A}nalysis},
   56(2):454--461.
 
 \bibitem[S{\'a}nchez et~al., 2014]{sanchez2014prediction}
 S{\'a}nchez, T., Ceballos, H., Dufour, D., Ortiz, D., Morante, N., Calle, F.,
   Zum~Felde, T., Dominguez, M., and Davrieux, F. (2014).
 \newblock Prediction of carotenoids, cyanide and dry matter contents in fresh
-  cassava root using nirs and hunter color techniques.
-\newblock {\em Food chemistry}, 151:444--451.
+  cassava root using {NIRS} and hunter color techniques.
+\newblock {\em Food {C}hemistry}, 151:444--451.
 
 \bibitem[S{\'a}nchez et~al., 2006]{sanchez2006reduction}
 S{\'a}nchez, T., Ch{\'a}vez, A.~L., Ceballos, H., Rodriguez-Amaya, D.~B.,
   Nestel, P., and Ishitani, M. (2006).
 \newblock Reduction or delay of post-harvest physiological deterioration in
   cassava roots with higher carotenoid content.
-\newblock {\em Journal of the Science of Food and Agriculture}, 86(4):634--639.
+\newblock {\em Journal of the {S}cience of {F}ood and {A}griculture},
+  86(4):634--639.
 
 \bibitem[Santos et~al., 2013]{santos2013rapid}
 Santos, P., Pereira-Filho, E., and Rodriguez-Saona, L. (2013).
 \newblock Rapid detection and quantification of milk adulteration using
   infrared microspectroscopy and chemometrics analysis.
-\newblock {\em Food chemistry}, 138(1):19--24.
+\newblock {\em Food {C}hemistry}, 138(1):19--24.
 
 \bibitem[Savitzky and Golay, 1964]{savitzky1964smoothing}
 Savitzky, A. and Golay, M.~J. (1964).
 \newblock Smoothing and differentiation of data by simplified least squares
   procedures.
-\newblock {\em Analytical chemistry}, 36(8):1627--1639.
+\newblock {\em Analytical {C}hemistry}, 36(8):1627--1639.
 
 \bibitem[Schanda, 2007]{schanda2007colorimetry}
 Schanda, J. (2007).
-\newblock {\em Colorimetry: understanding the CIE system}.
+\newblock {\em Colorimetry: understanding the {CIE} system}.
 \newblock John Wiley \& Sons.
 
 \bibitem[Sikirzhytski et~al., 2012]{sikirzhytski2012advanced}
 Sikirzhytski, V., Sikirzhytskaya, A., and Lednev, I.~K. (2012).
 \newblock Advanced statistical analysis of raman spectroscopic data for the
   identification of body fluid traces: semen and blood mixtures.
-\newblock {\em Forensic science international}, 222(1):259--265.
+\newblock {\em Forensic {S}cience {I}nternational}, 222(1):259--265.
 
 \bibitem[Sikirzhytski et~al., 2010]{sikirzhytski2010discriminant}
 Sikirzhytski, V., Virkler, K., and Lednev, I.~K. (2010).
@@ -365,7 +372,7 @@ Sikirzhytski, V., Virkler, K., and Lednev, I.~K. (2010).
 \bibitem[Singh et~al., 2007]{singh2007review}
 Singh, Y., Bhatia, P.~K., and Sangwan, O. (2007).
 \newblock A review of studies on machine learning techniques.
-\newblock {\em International Journal of Computer Science and Security},
+\newblock {\em International {J}ournal of {C}omputer {S}cience and {S}ecurity},
   1(1):70--84.
 
 \bibitem[Smith and Dent, 2005]{smith2005modern}
@@ -373,22 +380,23 @@ Smith, E. and Dent, G. (2005).
 \newblock {\em Modern Raman spectroscopy: a practical approach}.
 \newblock John Wiley \& Sons, Chister, UK, 1 edition.
 
-\bibitem[Soderberg, 2010]{soderberg2010organic}
-Soderberg, T. (2010).
-\newblock Organic chemistry with a biological emphasis volume i.
-\newblock 1.
+\bibitem[Soderberg, 2016]{soderberg2010organic}
+Soderberg, T. (2016).
+\newblock {\em Organic Chemistry with a Biological Emphasis Volume I},
+  volume~1.
+\newblock Timothy Soderberg (Creative Commons Attribution 2.0).
 
 \bibitem[Souto et~al., 2010]{souto2010uv}
 Souto, U. T. C.~P., Pontes, M. J.~C., Silva, E.~C., Galv{\~a}o, R. K.~H.,
   Ara{\'u}jo, M. C.~U., Sanches, F. A.~C., Cunha, F. A.~S., and Oliveira, M.
   S.~R. (2010).
-\newblock Uv--vis spectrometric classification of coffees by spa--lda.
-\newblock {\em Food Chemistry}, 119(1):368--371.
+\newblock Uv--vis spectrometric classification of coffees by {SPA--LDA}.
+\newblock {\em Food {C}hemistry}, 119(1):368--371.
 
 \bibitem[Stahl and Sies, 2003]{stahl2003antioxidant}
 Stahl, W. and Sies, H. (2003).
 \newblock Antioxidant activity of carotenoids.
-\newblock {\em Molecular aspects of medicine}, 24(6):345--351.
+\newblock {\em Molecular {A}spects of {M}edicine}, 24(6):345--351.
 
 \bibitem[Stuart, 2004]{Stuart2004}
 Stuart, B.~H. (2004).
@@ -400,42 +408,42 @@ Stuart, B.~H. (2004).
 Subari, N., Mohamad~Saleh, J., Ali, Y., Shakaff, M., and Zakaria, A. (2012).
 \newblock A hybrid sensing approach for pure and adulterated honey
   classification.
-\newblock {\em Sensors (Basel, Switzerland)}, 12(10):14022--40.
+\newblock {\em Sensors ({B}asel, {S}witzerland)}, 12(10):14022--40.
 
 \bibitem[Thanasoulias et~al., 2003]{thanasoulias2003multivariate}
 Thanasoulias, N.~C., Parisis, N.~A., and Evmiridis, N.~P. (2003).
 \newblock Multivariate chemometrics for the forensic discrimination of blue
-  ball-point pen inks based on their vis spectra.
-\newblock {\em Forensic science international}, 138(1):75--84.
+  ball-point pen inks based on their {Vis} spectra.
+\newblock {\em Forensic {S}cience {I}nternational}, 138(1):75--84.
 
 \bibitem[Thanasoulias et~al., 2002]{thanasoulias2002application}
 Thanasoulias, N.~C., Piliouris, E.~T., Kotti, M.-S.~E., and Evmiridis, N.~P.
   (2002).
 \newblock Application of multivariate chemometrics in forensic soil
-  discrimination based on the uv-vis spectrum of the acid fraction of humus.
-\newblock {\em Forensic science international}, 130(2):73--82.
+  discrimination based on the {UV-Vis} spectrum of the acid fraction of humus.
+\newblock {\em Forensic {S}cience {I}nternational}, 130(2):73--82.
 
 \bibitem[Tomazzoli et~al., 2015]{tomazzoli2015discrimination}
 Tomazzoli, M.~M., Pai~Neto, R.~D., Moresco, R., Westphal, L., Zeggio, A.~R.,
   Specht, L., Costa, C., Rocha, M., and Maraschin, M. (2015).
-\newblock Discrimination of brazilian propolis according to the seasoning using
-  chemometrics and machine learning based on uv-vis scanning data.
-\newblock {\em Journal of Integrative Bioinformatics (JIB)}, 12(4):15--26.
+\newblock Discrimination of {B}razilian propolis according to the seasoning
+  using chemometrics and machine learning based on {UV-Vis} scanning data.
+\newblock {\em Journal of {I}ntegrative {B}ioinformatics}, 12(4):15--26.
 
 \bibitem[Uarrota et~al., 2014]{uarrota2014metabolomics}
 Uarrota, V.~G., Moresco, R., Coelho, B., da~Costa~Nunes, E., Peruch, L. A.~M.,
   de~Oliveira~Neubert, E., Rocha, M., and Maraschin, M. (2014).
-\newblock Metabolomics combined with chemometric tools (pca, hca, pls-da and
-  svm) for screening cassava (manihot esculenta crantz) roots during
+\newblock Metabolomics combined with chemometric tools ({PCA}, {HCA}, {PLS-DA}
+  and {SVM}) for screening cassava ({M}anihot esculenta {C}rantz) roots during
   postharvest physiological deterioration.
-\newblock {\em Food chemistry}, 161:67--78.
+\newblock {\em Food {C}hemistry}, 161:67--78.
 
 \bibitem[Urbano et~al., 2006]{urbano2006ultraviolet}
 Urbano, M., De~Castro, M. D.~L., P{\'e}rez, P.~M., Garc{\'\i}a-Olmo, J., and
   Gomez-Nieto, M.~A. (2006).
 \newblock Ultraviolet--visible spectroscopy and pattern recognition methods for
   differentiation and classification of wines.
-\newblock {\em Food Chemistry}, 97(1):166--175.
+\newblock {\em Food {C}hemistry}, 97(1):166--175.
 
 \bibitem[Varmuza and Filzmoser, 2009]{varmuza2009introduction}
 Varmuza, K. and Filzmoser, P. (2009).
@@ -447,12 +455,12 @@ Varmuza, K. and Filzmoser, P. (2009).
 Virkler, K. and Lednev, I.~K. (2010).
 \newblock Raman spectroscopic signature of blood and its potential application
   to forensic body fluid identification.
-\newblock {\em Analytical and bioanalytical chemistry}, 396(1):525--534.
+\newblock {\em Analytical and {B}ioanalytical {C}hemistry}, 396(1):525--534.
 
 \bibitem[Weatherall and Coombs, 1992]{weatherall1992skin}
 Weatherall, I.~L. and Coombs, B.~D. (1992).
-\newblock Skin color measurements in terms of cielab color space values.
-\newblock {\em Journal of investigative dermatology}, 99(4):468--473.
+\newblock Skin color measurements in terms of {CIELAB} color space values.
+\newblock {\em Journal of {I}nvestigative {D}ermatology}, 99(4):468--473.
 
 \bibitem[Zhang et~al., 2012]{zhang2012modern}
 Zhang, A., Sun, H., Wang, P., Han, Y., and Wang, X. (2012).
