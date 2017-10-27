@@ -7,12 +7,12 @@ To address this problem, the R package \textit{specmine} was made available \cit
 
 The implemented methods allow for the analysis of metabolomics and spectral data, including \gls{gcms}, \gls{lcms}, \gls{nmr}, \gls{ir} and \gls{uv} data, integrating many available functions provided by other metabolomics oriented R packages and also more general-purpose data analysis R functions. Some of \textit{specmine} package dependencies include:
 
-\begin{itemize}
+\begin{itemize}[after = \vspace{-0.7cm}, before = \vspace{-0.7cm}]
 	\item \textit{\textbf{hyperSpec}}: facilitates hyperspectral data sets handling (i.e. spatially or time-resolved spectra, which may consist of any data that is recorded over a discretized variable);
 	\item \textit{\textbf{ChemoSpec}}: a collection of functions for top-down exploratory data analysis of spectral data obtained via \gls{nmr}, \gls{ir} or Raman spectroscopy;
 	\item \textit{\textbf{rgl}}: provides medium to high level functions for 3D interactive graphics;
-	\item \textit{\textbf{ggplot2}}: a system for 'declaratively' creating graphics, based on "The Grammar of Graphics";
-	\item \textit{\textbf{caret}}: miscellaneous functions for training and plotting classification and regression models.
+	\item \textit{\textbf{ggplot2}}: a system for 'declaratively' creating graphics;
+	\item \textit{\textbf{caret}}: functions for training and plotting classification and regression models.
 \end{itemize}
 
 Besides providing a tool that covers the main metabolomics and spectral data types, \textit{specmine} also addresses a full range of tasks in data analysis, allowing for the creation of flexible and powerful analysis pipelines for specific case studies, providing abundant graphical visualization of the results. \autoref{specmine} shows the modules present in this package. Since metabolite identification is not usually the goal in a metabolic fingerprinting approach, which is emphasized throughout this dissertation, the metabolite identification module won't be discussed here.
@@ -266,7 +266,7 @@ Specmine also includes functions for data normalization, which can be done by su
 		impute\_nas\_value & Impute missing values with value replacement. \\
 		
 		\hline
-		indexes\_to\_xvalue\_interval & Returns x-values corresponding to a vector of indexes (only to numerical values - spectra). \\
+		indexes\_to\_xvalue\_interval & Returns x-values corresponding to a vector of indexes (only spectral data). \\
 		
 		\hline
 		log\_transform & Performs logarithmic transformation on the data matrix. \\
@@ -441,10 +441,10 @@ Specmine also includes functions for data normalization, which can be done by su
 		variables\_as\_metadata & Use one or more data variables as metadata variables. \\
 		
 		\hline
-		xvalue\_interval\_to\_indexes & Returns indexes corresponding to an interval of x-values (only to numerical values - spectra). \\
+		xvalue\_interval\_to\_indexes & Returns indexes corresponding to an interval of x-values (only spectral data). \\
 		
 		\hline
-		x\_values\_to\_indexes & Returns the indexes corresponding to a vector of x-values (only to numerical values - spectra). \\
+		x\_values\_to\_indexes & Returns the indexes corresponding to a vector of x-values (only spectral data). \\
 		
 		\hline
 		

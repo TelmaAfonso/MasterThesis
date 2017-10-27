@@ -1,8 +1,6 @@
 (indexentry :tkey (("BisBII" "\\glossentry{bisbii}") ) :locref "{}{i}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("IR" "\\glossentry{ir}") ) :locref "{}{iii}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("UV-vis" "\\glossentry{uv}") ) :locref "{}{iii}" :attr "pageglsnumberformat" ) 
-(indexentry :tkey (("IR" "\\glossentry{ir}") ) :locref "{}{iii}" :attr "pageglsnumberformat" ) 
-(indexentry :tkey (("UV-vis" "\\glossentry{uv}") ) :locref "{}{iii}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("UV-vis" "\\glossentry{uv}") ) :locref "{}{viii}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("IR" "\\glossentry{ir}") ) :locref "{}{xi}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("UV-vis" "\\glossentry{uv}") ) :locref "{}{xi}" :attr "pageglsnumberformat" ) 

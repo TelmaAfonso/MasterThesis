@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.17)  24 OCT 2017 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.17)  27 OCT 2017 11:25
 entering extended mode
 **./dissertation.tex
 (dissertation.tex
@@ -1832,23 +1832,23 @@ l.2 \chapter*{Abstract}
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 \cleardoublepage
+l.14 \cleardoublepage
                       [3]pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.iv}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 \cleardoublepage
+l.14 \cleardoublepage
                       [4
 
 
 ]
-Overfull \hbox (1.19289pt too wide) in paragraph at lines 15--16
+Overfull \hbox (1.19289pt too wide) in paragraph at lines 18--19
 \OT1/pplj/m/n/10.95 tais avan[]os per-mi-ti-ram abor-dar tare-fas em gen[]omica
  fun-cional, carateriza[][]ao e classifica[][]ao
  []
 
 
-Overfull \hbox (2.43022pt too wide) in paragraph at lines 17--18
+Overfull \hbox (2.43022pt too wide) in paragraph at lines 20--21
 []\OT1/pplj/m/n/10.95 Recentemente, v[]arios m[]etodos e fer-ra-men-tas para an
 []alise de da-dos es-pec-trais t[]em surgido,
  []
@@ -2028,7 +2028,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Font Info:    Font shape `OT1/pplj/bx/sc' in size <9> not available
 (Font)              Font shape `OT1/pplj/b/n' tried instead on input line 30.
  [6]
-<Imagens/spectroscopies.jpg, id=1084, 2207.24625pt x 656.4525pt>
+<Imagens/spectroscopies.jpg, id=1082, 2207.24625pt x 656.4525pt>
 File: Imagens/spectroscopies.jpg Graphic file (type jpg)
 
 <use Imagens/spectroscopies.jpg>
@@ -2394,7 +2394,7 @@ Overfull \hbox (0.1306pt too wide) in paragraph at lines 8--9
 S)[][], [][][]Gas Chromatography-Mass Spec-
  []
 
-<Imagens/workflow.png, id=1319, 583.58025pt x 447.47176pt>
+<Imagens/workflow.png, id=1317, 583.58025pt x 447.47176pt>
 File: Imagens/workflow.png Graphic file (type png)
 
 <use Imagens/workflow.png>
@@ -2408,7 +2408,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-<Imagens/derivatives.png, id=1355, 1312.905pt x 316.18124pt>
+<Imagens/derivatives.png, id=1353, 1312.905pt x 316.18124pt>
 File: Imagens/derivatives.png Graphic file (type png)
 
 <use Imagens/derivatives.png>
@@ -2441,7 +2441,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-<Imagens/clustering.png, id=1425, 883.50075pt x 445.06274pt>
+<Imagens/clustering.png, id=1423, 883.50075pt x 445.06274pt>
 File: Imagens/clustering.png Graphic file (type png)
 
 <use Imagens/clustering.png>
@@ -2452,14 +2452,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17])
 (workflow_supervised.tex [18 <./Imagens/clustering.png>]
-<Imagens/tabular_data.png, id=1441, 539.01375pt x 268.00125pt>
+<Imagens/tabular_data.png, id=1439, 539.01375pt x 268.00125pt>
 File: Imagens/tabular_data.png Graphic file (type png)
 
 <use Imagens/tabular_data.png>
 Package pdftex.def Info: Imagens/tabular_data.png used on input line 10.
 (pdftex.def)             Requested size: 265.59494pt x 132.05783pt.
 
-<Imagens/ml_workflow.png, id=1463, 679.338pt x 320.397pt>
+<Imagens/ml_workflow.png, id=1461, 679.338pt x 320.397pt>
 File: Imagens/ml_workflow.png Graphic file (type png)
 
 <use Imagens/ml_workflow.png>
@@ -2472,7 +2472,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-<Imagens/feature_Selection.png, id=1512, 579.3645pt x 395.67825pt>
+<Imagens/feature_Selection.png, id=1510, 579.3645pt x 395.67825pt>
 File: Imagens/feature_Selection.png Graphic file (type png)
 
 <use Imagens/feature_Selection.png>
@@ -2485,7 +2485,7 @@ Underfull \vbox (badness 2932) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
-<Imagens/data_fusion.png, id=1550, 537.207pt x 413.74574pt>
+<Imagens/data_fusion.png, id=1548, 537.207pt x 413.74574pt>
 File: Imagens/data_fusion.png Graphic file (type png)
 
 <use Imagens/data_fusion.png>
@@ -2583,7 +2583,7 @@ chapter 3.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
-<Imagens/reactive.png, id=1772, 572.1375pt x 166.221pt>
+<Imagens/reactive.png, id=1770, 572.1375pt x 166.221pt>
 File: Imagens/reactive.png Graphic file (type png)
 
 <use Imagens/reactive.png>
@@ -2591,11 +2591,13 @@ Package pdftex.def Info: Imagens/reactive.png used on input line 19.
 (pdftex.def)             Requested size: 309.85626pt x 90.02176pt.
 LaTeX Font Info:    Font shape `OT1/pplj/bx/it' in size <10.95> not available
 (Font)              Font shape `OT1/pplj/b/it' tried instead on input line 30.
- [30 <./Imagens/reactive.png>]) (specmine.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
-<Imagens/specmine.png, id=1807, 687.16725pt x 274.626pt>
+ [30 <./Imagens/reactive.png>]
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [31]) (specmine.tex
+<Imagens/specmine.png, id=1808, 687.16725pt x 274.626pt>
 File: Imagens/specmine.png Graphic file (type png)
 
 <use Imagens/specmine.png>
@@ -2605,7 +2607,7 @@ Package pdftex.def Info: Imagens/specmine.png used on input line 22.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
-<Imagens/data_structure.png, id=1817, 639.38875pt x 173.64874pt>
+<Imagens/data_structure.png, id=1818, 639.38875pt x 173.64874pt>
 File: Imagens/data_structure.png Graphic file (type png)
 
 <use Imagens/data_structure.png>
@@ -2686,10 +2688,7 @@ Overfull \hbox (17.87346pt too wide) in alignment at lines 482--546
 Underfull \vbox (badness 10000) detected at line 546
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37]
+[37]
 Overfull \hbox (17.87346pt too wide) in alignment at lines 546--607
  [] [] 
  []
@@ -2721,7 +2720,7 @@ Overfull \hbox (17.87346pt too wide) in alignment at lines 654--690
 Underfull \vbox (badness 10000) detected at line 690
  []
 
-) (architecture.tex <Imagens/website_2.png, id=1888, 627.5445pt x 478.1865pt>
+) (architecture.tex <Imagens/website_2.png, id=1889, 627.5445pt x 478.1865pt>
 File: Imagens/website_2.png Graphic file (type png)
 
 <use Imagens/website_2.png>
@@ -2731,7 +2730,7 @@ Package pdftex.def Info: Imagens/website_2.png used on input line 10.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
-<Imagens/file_structure.png, id=1892, 522.753pt x 502.87875pt>
+<Imagens/file_structure.png, id=1893, 522.753pt x 502.87875pt>
 File: Imagens/file_structure.png Graphic file (type png)
 
 <use Imagens/file_structure.png>
@@ -2741,17 +2740,17 @@ Package pdftex.def Info: Imagens/file_structure.png used on input line 23.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40 <./Imagens/website_2.png>]
-<Imagens/webspecmine_home.png, id=1899, 852.18375pt x 497.4585pt>
+<Imagens/webspecmine_home.png, id=1900, 943.1235pt x 506.49225pt>
 File: Imagens/webspecmine_home.png Graphic file (type png)
 
 <use Imagens/webspecmine_home.png>
 Package pdftex.def Info: Imagens/webspecmine_home.png used on input line 34.
-(pdftex.def)             Requested size: 442.65375pt x 258.39905pt.
+(pdftex.def)             Requested size: 442.65375pt x 237.72679pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41 <./Imagens/file_structure.png>]
-<Imagens/webspecmine_authentication.png, id=1905, 252.34274pt x 184.89075pt>
+<Imagens/webspecmine_authentication.png, id=1906, 252.34274pt x 184.89075pt>
 File: Imagens/webspecmine_authentication.png Graphic file (type png)
 
 <use Imagens/webspecmine_authentication.png>
@@ -2768,14 +2767,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42 <./Imagens/webspecmine_home.png> <./Imagens/webspecmine_authentication.png
 >]
-<Imagens/project.png, id=1915, 485.4135pt x 254.75175pt>
+<Imagens/project.png, id=1916, 485.4135pt x 254.75175pt>
 File: Imagens/project.png Graphic file (type png)
 
 <use Imagens/project.png>
 Package pdftex.def Info: Imagens/project.png used on input line 74.
 (pdftex.def)             Requested size: 221.32687pt x 116.15323pt.
 
-<Imagens/webspecmine_myprojs.png, id=1917, 799.18575pt x 390.258pt>
+<Imagens/webspecmine_myprojs.png, id=1918, 799.18575pt x 390.258pt>
 File: Imagens/webspecmine_myprojs.png Graphic file (type png)
 
 <use Imagens/webspecmine_myprojs.png>
@@ -2790,7 +2789,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 2205) has occurred while \output is active []
 
  [43 <./Imagens/project.png>]
-<Imagens/webspecmine_import.png, id=1925, 623.931pt x 516.7305pt>
+<Imagens/webspecmine_import.png, id=1926, 623.931pt x 516.7305pt>
 File: Imagens/webspecmine_import.png Graphic file (type png)
 
 <use Imagens/webspecmine_import.png>
@@ -2804,7 +2803,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45 <./Imagens/webspecmine_import.png>]
-<Imagens/data_visualization.png, id=1943, 699.21225pt x 460.72125pt>
+<Imagens/data_visualization.png, id=1944, 699.21225pt x 460.72125pt>
 File: Imagens/data_visualization.png Graphic file (type png)
 
 <use Imagens/data_visualization.png>
@@ -2815,7 +2814,7 @@ Package pdftex.def Info: Imagens/data_visualization.png used on input line 128.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46 <./Imagens/data_visualization.png>]
-<Imagens/webspecmine_preprocessing.png, id=1954, 954.56625pt x 514.3215pt>
+<Imagens/webspecmine_preprocessing.png, id=1955, 954.56625pt x 514.3215pt>
 File: Imagens/webspecmine_preprocessing.png Graphic file (type png)
 
 <use Imagens/webspecmine_preprocessing.png>
@@ -2826,7 +2825,7 @@ ne 219.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[47] <Imagens/webspecmine_runanalysis.png, id=1963, 684.156pt x 523.35526pt>
+[47] <Imagens/webspecmine_runanalysis.png, id=1964, 684.156pt x 523.35526pt>
 File: Imagens/webspecmine_runanalysis.png Graphic file (type png)
 
 <use Imagens/webspecmine_runanalysis.png>
@@ -2841,7 +2840,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [48 <./Imagens/webspecmine_preprocessing.png>]
-<Imagens/webspecmine_anova.png, id=1975, 957.5775pt x 498.06075pt>
+<Imagens/webspecmine_anova.png, id=1976, 957.5775pt x 498.06075pt>
 File: Imagens/webspecmine_anova.png Graphic file (type png)
 
 <use Imagens/webspecmine_anova.png>
@@ -2851,7 +2850,7 @@ Package pdftex.def Info: Imagens/webspecmine_anova.png used on input line 250.
 Underfull \vbox (badness 6316) has occurred while \output is active []
 
  [50 <./Imagens/webspecmine_anova.png>] [51]
-<Imagens/webspecmine_pca.png, id=1998, 1230.999pt x 664.28175pt>
+<Imagens/webspecmine_pca.png, id=1999, 1230.999pt x 664.28175pt>
 File: Imagens/webspecmine_pca.png Graphic file (type png)
 
 <use Imagens/webspecmine_pca.png>
@@ -2861,7 +2860,7 @@ Package pdftex.def Info: Imagens/webspecmine_pca.png used on input line 305.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [52 <./Imagens/webspecmine_pca.png>]
-<Imagens/webspecmine_clustering.png, id=2007, 823.878pt x 466.74374pt>
+<Imagens/webspecmine_clustering.png, id=2008, 823.878pt x 466.74374pt>
 File: Imagens/webspecmine_clustering.png Graphic file (type png)
 
 <use Imagens/webspecmine_clustering.png>
@@ -2872,7 +2871,7 @@ Package pdftex.def Info: Imagens/webspecmine_clustering.png used on input line
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53 <./Imagens/webspecmine_clustering.png>]
-<Imagens/webspecmine_correlation.png, id=2015, 752.21025pt x 479.391pt>
+<Imagens/webspecmine_correlation.png, id=2016, 752.21025pt x 479.391pt>
 File: Imagens/webspecmine_correlation.png Graphic file (type png)
 
 <use Imagens/webspecmine_correlation.png>
@@ -2885,7 +2884,7 @@ Overfull \hbox (7.78474pt too wide) in paragraph at lines 353--354
 s-validation, re-peated cross-validation,
  []
 
-) (data_model.tex <Imagens/database.png, id=2030, 515.526pt x 301.72725pt>
+) (data_model.tex <Imagens/database.png, id=2031, 515.526pt x 301.72725pt>
 File: Imagens/database.png Graphic file (type png)
 
 <use Imagens/database.png>
@@ -2908,7 +2907,7 @@ Overfull \hbox (9.25842pt too wide) in paragraph at lines 30--31
 -[]project .
  []
 
-<Imagens/hash.png, id=2045, 691.383pt x 291.489pt>
+<Imagens/hash.png, id=2046, 691.383pt x 291.489pt>
 File: Imagens/hash.png Graphic file (type png)
  <use Imagens/hash.png>
 Package pdftex.def Info: Imagens/hash.png used on input line 42.
@@ -2943,7 +2942,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<Imagens/Propolis/import_project.png, id=2087, 791.95876pt x 638.385pt>
+<Imagens/Propolis/import_project.png, id=2088, 791.95876pt x 638.385pt>
 File: Imagens/Propolis/import_project.png Graphic file (type png)
 
 <use Imagens/Propolis/import_project.png>
@@ -2954,7 +2953,7 @@ Package pdftex.def Info: Imagens/Propolis/import_project.png used on input line
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
  [60 <./Imagens/Propolis/import_project.png>]
-<Imagens/Propolis/data_overview.png, id=2095, 1019.60925pt x 579.96675pt>
+<Imagens/Propolis/data_overview.png, id=2096, 1019.60925pt x 579.96675pt>
 File: Imagens/Propolis/data_overview.png Graphic file (type png)
 
 <use Imagens/Propolis/data_overview.png>
@@ -2962,7 +2961,7 @@ Package pdftex.def Info: Imagens/Propolis/data_overview.png used on input line
 41.
 (pdftex.def)             Requested size: 442.65375pt x 251.78792pt.
 
-<Imagens/Propolis/proprocessing.png, id=2097, 857.00175pt x 410.13225pt>
+<Imagens/Propolis/proprocessing.png, id=2098, 857.00175pt x 410.13225pt>
 File: Imagens/Propolis/proprocessing.png Graphic file (type png)
 
 <use Imagens/Propolis/proprocessing.png>
@@ -2973,7 +2972,7 @@ Package pdftex.def Info: Imagens/Propolis/proprocessing.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagens/Propolis/data_overview_preproc.png, id=2099, 1035.87pt x 472.164pt>
+<Imagens/Propolis/data_overview_preproc.png, id=2100, 1035.87pt x 472.164pt>
 File: Imagens/Propolis/data_overview_preproc.png Graphic file (type png)
 
 <use Imagens/Propolis/data_overview_preproc.png>
@@ -2984,7 +2983,7 @@ ut line 65.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [61 <./Imagens/Propolis/data_overview.png>]
-<Imagens/Propolis/anova.png, id=2111, 1326.1545pt x 791.3565pt>
+<Imagens/Propolis/anova.png, id=2112, 1326.1545pt x 791.3565pt>
 File: Imagens/Propolis/anova.png Graphic file (type png)
 
 <use Imagens/Propolis/anova.png>
@@ -2992,7 +2991,7 @@ Package pdftex.def Info: Imagens/Propolis/anova.png used on input line 79.
 (pdftex.def)             Requested size: 442.65375pt x 264.14308pt.
  [62 <./Imagens/Propolis/proprocessing.png> <./Imagens/Propolis/data_overview_p
 reproc.png>]
-<Imagens/Propolis/hca.png, id=2126, 1299.6555pt x 701.019pt>
+<Imagens/Propolis/hca.png, id=2127, 1299.6555pt x 701.019pt>
 File: Imagens/Propolis/hca.png Graphic file (type png)
 
 <use Imagens/Propolis/hca.png>
@@ -3002,7 +3001,7 @@ Package pdftex.def Info: Imagens/Propolis/hca.png used on input line 92.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63 <./Imagens/Propolis/anova.png>]
-<Imagens/Propolis/pca.png, id=2142, 1330.37025pt x 906.9885pt>
+<Imagens/Propolis/pca.png, id=2143, 1330.37025pt x 906.9885pt>
 File: Imagens/Propolis/pca.png Graphic file (type png)
 
 <use Imagens/Propolis/pca.png>
@@ -3012,7 +3011,7 @@ Package pdftex.def Info: Imagens/Propolis/pca.png used on input line 107.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64 <./Imagens/Propolis/hca.png>] [65 <./Imagens/Propolis/pca.png>]
-<Imagens/CassavaPPD/data_load.png, id=2169, 987.69pt x 555.2745pt>
+<Imagens/CassavaPPD/data_load.png, id=2170, 987.69pt x 555.2745pt>
 File: Imagens/CassavaPPD/data_load.png Graphic file (type png)
 
 <use Imagens/CassavaPPD/data_load.png>
@@ -3023,7 +3022,7 @@ Package pdftex.def Info: Imagens/CassavaPPD/data_load.png used on input line 13
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagens/CassavaPPD/data_overview.png, id=2172, 1017.8025pt x 548.64975pt>
+<Imagens/CassavaPPD/data_overview.png, id=2173, 1017.8025pt x 548.64975pt>
 File: Imagens/CassavaPPD/data_overview.png Graphic file (type png)
 
 <use Imagens/CassavaPPD/data_overview.png>
@@ -3037,7 +3036,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagens/CassavaPPD/preprocessing.png, id=2178, 807.61725pt x 433.01775pt>
+<Imagens/CassavaPPD/preprocessing.png, id=2179, 807.61725pt x 433.01775pt>
 File: Imagens/CassavaPPD/preprocessing.png Graphic file (type png)
 
 <use Imagens/CassavaPPD/preprocessing.png>
@@ -3048,7 +3047,7 @@ e 164.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [67 <./Imagens/CassavaPPD/data_load.png>]
-<Imagens/CassavaPPD/data_overview_preproc.png, id=2186, 1008.76875pt x 476.982p
+<Imagens/CassavaPPD/data_overview_preproc.png, id=2187, 1008.76875pt x 476.982p
 t>
 File: Imagens/CassavaPPD/data_overview_preproc.png Graphic file (type png)
  <use Imagens/CassavaPPD/data_overview_preproc.png>
@@ -3060,7 +3059,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [68 <./Imagens/CassavaPPD/data_overview.png> <./Imagens/CassavaPPD/preprocessi
 ng.png>]
-<Imagens/CassavaPPD/pca.png, id=2200, 1312.905pt x 930.47626pt>
+<Imagens/CassavaPPD/pca.png, id=2201, 1312.905pt x 930.47626pt>
 File: Imagens/CassavaPPD/pca.png Graphic file (type png)
 
 <use Imagens/CassavaPPD/pca.png>
@@ -3070,7 +3069,7 @@ Package pdftex.def Info: Imagens/CassavaPPD/pca.png used on input line 187.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [69 <./Imagens/CassavaPPD/data_overview_preproc.png>]
-<Imagens/CassavaPPD/correlation.png, id=2215, 1305.678pt x 810.02625pt>
+<Imagens/CassavaPPD/correlation.png, id=2216, 1305.678pt x 810.02625pt>
 File: Imagens/CassavaPPD/correlation.png Graphic file (type png)
 
 <use Imagens/CassavaPPD/correlation.png>
@@ -3081,7 +3080,7 @@ Package pdftex.def Info: Imagens/CassavaPPD/correlation.png used on input line
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [70 <./Imagens/CassavaPPD/pca.png>]
-<Imagens/CassavaPPD/feature_selection.png, id=2225, 1314.71175pt x 679.338pt>
+<Imagens/CassavaPPD/feature_selection.png, id=2226, 1314.71175pt x 679.338pt>
 File: Imagens/CassavaPPD/feature_selection.png Graphic file (type png)
 
 <use Imagens/CassavaPPD/feature_selection.png>
@@ -3092,7 +3091,7 @@ Package pdftex.def Info: Imagens/CassavaPPD/feature_selection.png used on input
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [71 <./Imagens/CassavaPPD/correlation.png>]
-<Imagens/CassavaPPD/ml.png, id=2236, 1191.85275pt x 822.07124pt>
+<Imagens/CassavaPPD/ml.png, id=2237, 1191.85275pt x 822.07124pt>
 File: Imagens/CassavaPPD/ml.png Graphic file (type png)
 
 <use Imagens/CassavaPPD/ml.png>
@@ -3123,7 +3122,7 @@ Overfull \hbox (6.06485pt too wide) in paragraph at lines 17--18
 mis-sion In-ter-na-tionale de L'Eclairage
  []
 
-<Imagens/Case_study/cielab.png, id=2283, 348.70274pt x 320.397pt>
+<Imagens/Case_study/cielab.png, id=2284, 348.70274pt x 320.397pt>
 File: Imagens/Case_study/cielab.png Graphic file (type png)
 
 <use Imagens/Case_study/cielab.png>
@@ -3146,7 +3145,7 @@ oids
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [78]
-<Imagens/Case_study/ml_diagram.png, id=2345, 470.35725pt x 166.82326pt>
+<Imagens/Case_study/ml_diagram.png, id=2346, 470.35725pt x 166.82326pt>
 File: Imagens/Case_study/ml_diagram.png Graphic file (type png)
 
 <use Imagens/Case_study/ml_diagram.png>
@@ -3154,14 +3153,14 @@ Package pdftex.def Info: Imagens/Case_study/ml_diagram.png used on input line 6
 6.
 (pdftex.def)             Requested size: 442.65375pt x 156.9997pt.
  [79 <./Imagens/Case_study/ml_diagram.png>]
-<Imagens/Case_study/summary_subset_full.png, id=2367, 923.8515pt x 364.36125pt>
+<Imagens/Case_study/summary_subset_full.png, id=2368, 923.8515pt x 364.36125pt>
 File: Imagens/Case_study/summary_subset_full.png Graphic file (type png)
 <use Imagens/Case_study/summary_subset_full.png>
 Package pdftex.def Info: Imagens/Case_study/summary_subset_full.png used on inp
 ut line 93.
 (pdftex.def)             Requested size: 442.65375pt x 174.58006pt.
  [80 <./Imagens/Case_study/summary_subset_full.png>]
-<Imagens/Case_study/UV_spectra_2.png, id=2384, 1081.03876pt x 240.29774pt>
+<Imagens/Case_study/UV_spectra_2.png, id=2385, 1081.03876pt x 240.29774pt>
 File: Imagens/Case_study/UV_spectra_2.png Graphic file (type png)
 
 <use Imagens/Case_study/UV_spectra_2.png>
@@ -3169,7 +3168,7 @@ Package pdftex.def Info: Imagens/Case_study/UV_spectra_2.png used on input line
  112.
 (pdftex.def)             Requested size: 442.65375pt x 98.39438pt.
 
-<Imagens/Case_study/spectra_plot.png, id=2392, 697.4055pt x 451.6875pt>
+<Imagens/Case_study/spectra_plot.png, id=2393, 697.4055pt x 451.6875pt>
 File: Imagens/Case_study/spectra_plot.png Graphic file (type png)
 
 <use Imagens/Case_study/spectra_plot.png>
@@ -3180,7 +3179,7 @@ Package pdftex.def Info: Imagens/Case_study/spectra_plot.png used on input line
 Underfull \vbox (badness 7273) has occurred while \output is active []
 
  [81 <./Imagens/Case_study/UV_spectra_2.png>]
-<Imagens/Case_study/carot_content_uv.png, id=2404, 991.3035pt x 349.90726pt>
+<Imagens/Case_study/carot_content_uv.png, id=2405, 991.3035pt x 349.90726pt>
 File: Imagens/Case_study/carot_content_uv.png Graphic file (type png)
 
 <use Imagens/Case_study/carot_content_uv.png>
@@ -3192,7 +3191,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [82 <./Imagens/Case_study/spectra_plot.png> <./Imagens/Case_study/carot_conten
 t_uv.png>]
-<Imagens/Case_study/cielab_plot2.png, id=2423, 670.9065pt x 445.06274pt>
+<Imagens/Case_study/cielab_plot2.png, id=2424, 670.9065pt x 445.06274pt>
 File: Imagens/Case_study/cielab_plot2.png Graphic file (type png)
 
 <use Imagens/Case_study/cielab_plot2.png>
@@ -3203,7 +3202,7 @@ Package pdftex.def Info: Imagens/Case_study/cielab_plot2.png used on input line
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [83 <./Imagens/Case_study/cielab_plot2.png>]
-<Imagens/Case_study/pca_plot_3.png, id=2444, 623.931pt x 414.348pt>
+<Imagens/Case_study/pca_plot_3.png, id=2445, 623.931pt x 414.348pt>
 File: Imagens/Case_study/pca_plot_3.png Graphic file (type png)
 
 <use Imagens/Case_study/pca_plot_3.png>
@@ -3214,7 +3213,7 @@ Package pdftex.def Info: Imagens/Case_study/pca_plot_3.png used on input line 1
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [84 <./Imagens/Case_study/pca_plot_3.png>]
-<Imagens/Case_study/anova_table_plot.png, id=2462, 921.4425pt x 419.166pt>
+<Imagens/Case_study/anova_table_plot.png, id=2463, 921.4425pt x 419.166pt>
 File: Imagens/Case_study/anova_table_plot.png Graphic file (type png)
 
 <use Imagens/Case_study/anova_table_plot.png>
@@ -3230,7 +3229,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [85 <./Imagens/Case_study/anova_table_plot.png>]
-<Imagens/Case_study/UV_table.png, id=2489, 469.15276pt x 295.70474pt>
+<Imagens/Case_study/UV_table.png, id=2490, 469.15276pt x 295.70474pt>
 File: Imagens/Case_study/UV_table.png Graphic file (type png)
 
 <use Imagens/Case_study/UV_table.png>
@@ -3241,7 +3240,7 @@ Package pdftex.def Info: Imagens/Case_study/UV_table.png used on input line 208
 Underfull \vbox (badness 6001) has occurred while \output is active []
 
  [86 <./Imagens/Case_study/UV_table.png>]
-<Imagens/Case_study/UV_preproc_table.png, id=2519, 365.56575pt x 149.96025pt>
+<Imagens/Case_study/UV_preproc_table.png, id=2520, 365.56575pt x 149.96025pt>
 File: Imagens/Case_study/UV_preproc_table.png Graphic file (type png)
 
 <use Imagens/Case_study/UV_preproc_table.png>
@@ -3258,7 +3257,7 @@ Overfull \hbox (2.09723pt too wide) in paragraph at lines 234--235
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [87 <./Imagens/Case_study/UV_preproc_table.png>]
-<Imagens/Case_study/CIELAB_table.png, id=2536, 467.94826pt x 265.59225pt>
+<Imagens/Case_study/CIELAB_table.png, id=2537, 467.94826pt x 265.59225pt>
 File: Imagens/Case_study/CIELAB_table.png Graphic file (type png)
 
 <use Imagens/Case_study/CIELAB_table.png>
@@ -3266,7 +3265,7 @@ Package pdftex.def Info: Imagens/Case_study/CIELAB_table.png used on input line
  240.
 (pdftex.def)             Requested size: 442.65375pt x 251.23724pt.
  [88 <./Imagens/Case_study/CIELAB_table.png>]
-<Imagens/Case_study/UV_cielab_table.png, id=2572, 472.164pt x 292.09125pt>
+<Imagens/Case_study/UV_cielab_table.png, id=2573, 472.164pt x 292.09125pt>
 File: Imagens/Case_study/UV_cielab_table.png Graphic file (type png)
 
 <use Imagens/Case_study/UV_cielab_table.png>
@@ -3328,11 +3327,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
  ) 
 Here is how much of TeX's memory you used:
- 44061 strings out of 493333
- 809828 string characters out of 3139193
- 1173009 words of memory out of 3000000
- 46354 multiletter control sequences out of 15000+200000
- 73387 words of font info for 152 fonts, out of 3000000 for 9000
+ 44071 strings out of 493333
+ 810035 string characters out of 3139193
+ 1173016 words of memory out of 3000000
+ 46362 multiletter control sequences out of 15000+200000
+ 73555 words of font info for 153 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,23n,106p,8825b,2782s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
@@ -3340,19 +3339,20 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplbij8a.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplbj8a.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/fpl/fplrij8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic
-/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8ac.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
-rw/palatino/uplri8a.pfb>
-Output written on dissertation.pdf (125 pages, 4859376 bytes).
+ts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
+t10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplbij8a.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/fpl/fplbj8a.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/fpl/fplrij8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8ac.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palat
+ino/uplri8a.pfb>
+Output written on dissertation.pdf (125 pages, 4900888 bytes).
 PDF statistics:
- 3023 PDF objects out of 3580 (max. 8388607)
+ 3027 PDF objects out of 3580 (max. 8388607)
  413 named destinations out of 1000 (max. 500000)
- 23416 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 23928 words of extra memory for PDF output out of 24883 (max. 10000000)
 
