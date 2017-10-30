@@ -89,7 +89,7 @@ For each data and metadata folder one or multiple files can be uploaded, to be l
 	\label{webspecmine_myprojs}
 \end{figure}
 
-The \textit{Public Projects} module can be accessed without any kind of authentication. Here, all projects that have been made public are displayed in table format, with information about the project name, author and data type. Any project can be imported into the user's private projects collection, given that the user is authenticated and the project itself is not owned by the user nor does he already own a project by that name. Each project in this module has a description, data, metadata and reports files associated, as in the previous module, that can be viewed at any given time. To obtain the latest list of public projects a \textit{refresh} button is provided.
+The \textit{Public Projects} module can be accessed without any kind of authentication. Here, all projects that have been made public are displayed in table format, with information about the project name, author and data type. Any project can be imported into the user's private projects collection, given that the user is authenticated and the project itself is not owned by the user nor does he/ she already own a project by that name. Each project in this module has a description, data, metadata and reports files associated, as in the previous module, that can be viewed at any given time. To obtain the latest list of public projects a \textit{refresh} button is provided.
 
 An important feature also present in the web application is the ability to save and load the workspace. This way, all the data and results the user is currently working on can be saved into his account for later use, thus providing the ability to continue the analysis at any given time.
 
@@ -132,7 +132,7 @@ When the loaded dataset is either of the type \gls{nmr}, \gls{ms}, \gls{ir}, \gl
 
 Lastly, the \textit{Boxplot of the Variables} tab shows a boxplot that can have from one to the total number of variables plotted, which are selected using a \textit{pickerinput} object from \textit{shinyWidgets} library. The boxplot is plotted using a \textit{specmine} function described in \autoref{specmine_functions_prepocessing}.
 
-An HTML report can be generated with the above information to be either downloaded or saved into the user reports folder of the selected project, in case he is authenticated.
+An HTML report can be generated with the above information to be either downloaded or saved into the user's reports folder of the selected project, in case he/ she is authenticated.
 
 
 
@@ -140,7 +140,7 @@ An HTML report can be generated with the above information to be either download
 
 On the \textit{Pre-Processing} page, a number of pre-processing approaches can be applied to the data. The page consists in a series of boxes to which a pre-processing technique is assigned to, displayed in two columns format. This way, various techniques can be applied sequentially with a simple mouse click. While some are straightforward to apply, others can be configured with different methods from which to choose from. Some techniques can only be applied to specific types of data or when a condition is met (e.g. missing values can only be treated if the dataset actually has some). After selecting the pre-processing techniques to apply to the data, the user must name the new dataset that is to be created, thus allowing to create multiple versions of the dataset.
 
-A list with all the pre-processing approaches available in the web application and corresponding selectable methods (\textbf{M}), implemented using specmine functions described in \autoref{specmine_functions_prepocessing}, is presented below:
+A list with all the pre-processing approaches available in the web application and corresponding selectable methods (\textbf{M}), implemented using \textit{specmine} functions described in \autoref{specmine_functions_prepocessing}, is presented below:
 
 
 \begin{multicols}{2}
